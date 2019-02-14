@@ -12,6 +12,7 @@
 		F25A37EF2215620400E24058 /* Longest Substring Without Repeating Characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F25A37EA2215620400E24058 /* Longest Substring Without Repeating Characters.cpp */; };
 		F25A37F02215620400E24058 /* Reverse Integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F25A37EC2215620400E24058 /* Reverse Integer.cpp */; };
 		F25A37F12215620400E24058 /* Add Two Numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F25A37ED2215620400E24058 /* Add Two Numbers.cpp */; };
+		F25A37F322156B8B00E24058 /* CountAndSay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F25A37F222156B8B00E24058 /* CountAndSay.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		F25A37EA2215620400E24058 /* Longest Substring Without Repeating Characters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Substring Without Repeating Characters.cpp"; sourceTree = "<group>"; };
 		F25A37EC2215620400E24058 /* Reverse Integer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Integer.cpp"; sourceTree = "<group>"; };
 		F25A37ED2215620400E24058 /* Add Two Numbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Add Two Numbers.cpp"; sourceTree = "<group>"; };
+		F25A37F222156B8B00E24058 /* CountAndSay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountAndSay.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				F25A37EA2215620400E24058 /* Longest Substring Without Repeating Characters.cpp */,
 				F25A37EC2215620400E24058 /* Reverse Integer.cpp */,
 				F25A37E82215620400E24058 /* Two Sum.cpp */,
+				F25A37F222156B8B00E24058 /* CountAndSay.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 				F25A37EF2215620400E24058 /* Longest Substring Without Repeating Characters.cpp in Sources */,
 				F25A37E2221561E000E24058 /* main.cpp in Sources */,
 				F25A37F02215620400E24058 /* Reverse Integer.cpp in Sources */,
+				F25A37F322156B8B00E24058 /* CountAndSay.cpp in Sources */,
 				F25A37F12215620400E24058 /* Add Two Numbers.cpp in Sources */,
 				F25A37EE2215620400E24058 /* Two Sum.cpp in Sources */,
 			);
