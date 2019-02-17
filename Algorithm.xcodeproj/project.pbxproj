@@ -15,6 +15,7 @@
 		F25A37F322156B8B00E24058 /* CountAndSay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F25A37F222156B8B00E24058 /* CountAndSay.cpp */; };
 		F27A03122219606C0054F77C /* Reverse String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A03112219606C0054F77C /* Reverse String.cpp */; };
 		F27A0314221964F00054F77C /* Maximum Depth of Binary Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A0313221964F00054F77C /* Maximum Depth of Binary Tree.cpp */; };
+		F27A0316221969F50054F77C /* Fizz Buzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A0315221969F50054F77C /* Fizz Buzz.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		F25A37F222156B8B00E24058 /* CountAndSay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountAndSay.cpp; sourceTree = "<group>"; };
 		F27A03112219606C0054F77C /* Reverse String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse String.cpp"; sourceTree = "<group>"; };
 		F27A0313221964F00054F77C /* Maximum Depth of Binary Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum Depth of Binary Tree.cpp"; sourceTree = "<group>"; };
+		F27A0315221969F50054F77C /* Fizz Buzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Fizz Buzz.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				F25A37F222156B8B00E24058 /* CountAndSay.cpp */,
 				F27A03112219606C0054F77C /* Reverse String.cpp */,
 				F27A0313221964F00054F77C /* Maximum Depth of Binary Tree.cpp */,
+				F27A0315221969F50054F77C /* Fizz Buzz.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				F25A37E2221561E000E24058 /* main.cpp in Sources */,
 				F27A03122219606C0054F77C /* Reverse String.cpp in Sources */,
 				F25A37F02215620400E24058 /* Reverse Integer.cpp in Sources */,
+				F27A0316221969F50054F77C /* Fizz Buzz.cpp in Sources */,
 				F27A0314221964F00054F77C /* Maximum Depth of Binary Tree.cpp in Sources */,
 				F25A37F322156B8B00E24058 /* CountAndSay.cpp in Sources */,
 				F25A37F12215620400E24058 /* Add Two Numbers.cpp in Sources */,
