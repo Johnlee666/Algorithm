@@ -16,6 +16,9 @@
 		F27A03122219606C0054F77C /* Reverse String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A03112219606C0054F77C /* Reverse String.cpp */; };
 		F27A0314221964F00054F77C /* Maximum Depth of Binary Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A0313221964F00054F77C /* Maximum Depth of Binary Tree.cpp */; };
 		F27A0316221969F50054F77C /* Fizz Buzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A0315221969F50054F77C /* Fizz Buzz.cpp */; };
+		F27A031822196D9F0054F77C /* Binary Tree Inorder Traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A031722196D9F0054F77C /* Binary Tree Inorder Traversal.cpp */; };
+		F27A031C221984910054F77C /* Product of Array Except Self.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A031B221984910054F77C /* Product of Array Except Self.cpp */; };
+		F27A031E221989A70054F77C /* Longest Common Prefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A031D221989A70054F77C /* Longest Common Prefix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +44,10 @@
 		F27A03112219606C0054F77C /* Reverse String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse String.cpp"; sourceTree = "<group>"; };
 		F27A0313221964F00054F77C /* Maximum Depth of Binary Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum Depth of Binary Tree.cpp"; sourceTree = "<group>"; };
 		F27A0315221969F50054F77C /* Fizz Buzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Fizz Buzz.cpp"; sourceTree = "<group>"; };
+		F27A031722196D9F0054F77C /* Binary Tree Inorder Traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Binary Tree Inorder Traversal.cpp"; sourceTree = "<group>"; };
+		F27A031A22196E320054F77C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F27A031B221984910054F77C /* Product of Array Except Self.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Product of Array Except Self.cpp"; sourceTree = "<group>"; };
+		F27A031D221989A70054F77C /* Longest Common Prefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Common Prefix.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +80,7 @@
 		F25A37E0221561E000E24058 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				F27A031A22196E320054F77C /* Header.h */,
 				F25A37E1221561E000E24058 /* main.cpp */,
 				F25A37ED2215620400E24058 /* Add Two Numbers.cpp */,
 				F25A37EA2215620400E24058 /* Longest Substring Without Repeating Characters.cpp */,
@@ -82,6 +90,9 @@
 				F27A03112219606C0054F77C /* Reverse String.cpp */,
 				F27A0313221964F00054F77C /* Maximum Depth of Binary Tree.cpp */,
 				F27A0315221969F50054F77C /* Fizz Buzz.cpp */,
+				F27A031722196D9F0054F77C /* Binary Tree Inorder Traversal.cpp */,
+				F27A031B221984910054F77C /* Product of Array Except Self.cpp */,
+				F27A031D221989A70054F77C /* Longest Common Prefix.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -144,11 +155,14 @@
 			files = (
 				F25A37EF2215620400E24058 /* Longest Substring Without Repeating Characters.cpp in Sources */,
 				F25A37E2221561E000E24058 /* main.cpp in Sources */,
+				F27A031822196D9F0054F77C /* Binary Tree Inorder Traversal.cpp in Sources */,
 				F27A03122219606C0054F77C /* Reverse String.cpp in Sources */,
 				F25A37F02215620400E24058 /* Reverse Integer.cpp in Sources */,
+				F27A031E221989A70054F77C /* Longest Common Prefix.cpp in Sources */,
 				F27A0316221969F50054F77C /* Fizz Buzz.cpp in Sources */,
 				F27A0314221964F00054F77C /* Maximum Depth of Binary Tree.cpp in Sources */,
 				F25A37F322156B8B00E24058 /* CountAndSay.cpp in Sources */,
+				F27A031C221984910054F77C /* Product of Array Except Self.cpp in Sources */,
 				F25A37F12215620400E24058 /* Add Two Numbers.cpp in Sources */,
 				F25A37EE2215620400E24058 /* Two Sum.cpp in Sources */,
 			);
