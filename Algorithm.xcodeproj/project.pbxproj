@@ -19,6 +19,13 @@
 		F27A031822196D9F0054F77C /* Binary Tree Inorder Traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A031722196D9F0054F77C /* Binary Tree Inorder Traversal.cpp */; };
 		F27A031C221984910054F77C /* Product of Array Except Self.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A031B221984910054F77C /* Product of Array Except Self.cpp */; };
 		F27A031E221989A70054F77C /* Longest Common Prefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F27A031D221989A70054F77C /* Longest Common Prefix.cpp */; };
+		F2BD3E7E221C27060048E5E8 /* Counting Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E7D221C27060048E5E8 /* Counting Bits.cpp */; };
+		F2BD3E80221C27150048E5E8 /* Jewels and Stones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E7F221C27150048E5E8 /* Jewels and Stones.cpp */; };
+		F2BD3E82221C350C0048E5E8 /* Number of 1 Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E81221C350C0048E5E8 /* Number of 1 Bits.cpp */; };
+		F2BD3E84221C378E0048E5E8 /* Single Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E83221C378E0048E5E8 /* Single Number.cpp */; };
+		F2BD3E8A221C3D570048E5E8 /* Merge Two Sorted Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E89221C3D570048E5E8 /* Merge Two Sorted Lists.cpp */; };
+		F2BD3E8C221C41D00048E5E8 /* Merge Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E8B221C41D00048E5E8 /* Merge Sorted Array.cpp */; };
+		F2BD3E8E221C46E20048E5E8 /* Hamming Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E8D221C46E20048E5E8 /* Hamming Distance.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +55,13 @@
 		F27A031A22196E320054F77C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		F27A031B221984910054F77C /* Product of Array Except Self.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Product of Array Except Self.cpp"; sourceTree = "<group>"; };
 		F27A031D221989A70054F77C /* Longest Common Prefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest Common Prefix.cpp"; sourceTree = "<group>"; };
+		F2BD3E7D221C27060048E5E8 /* Counting Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Counting Bits.cpp"; sourceTree = "<group>"; };
+		F2BD3E7F221C27150048E5E8 /* Jewels and Stones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Jewels and Stones.cpp"; sourceTree = "<group>"; };
+		F2BD3E81221C350C0048E5E8 /* Number of 1 Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Number of 1 Bits.cpp"; sourceTree = "<group>"; };
+		F2BD3E83221C378E0048E5E8 /* Single Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Single Number.cpp"; sourceTree = "<group>"; };
+		F2BD3E89221C3D570048E5E8 /* Merge Two Sorted Lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Two Sorted Lists.cpp"; sourceTree = "<group>"; };
+		F2BD3E8B221C41D00048E5E8 /* Merge Sorted Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Sorted Array.cpp"; sourceTree = "<group>"; };
+		F2BD3E8D221C46E20048E5E8 /* Hamming Distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Hamming Distance.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +107,13 @@
 				F27A031722196D9F0054F77C /* Binary Tree Inorder Traversal.cpp */,
 				F27A031B221984910054F77C /* Product of Array Except Self.cpp */,
 				F27A031D221989A70054F77C /* Longest Common Prefix.cpp */,
+				F2BD3E7D221C27060048E5E8 /* Counting Bits.cpp */,
+				F2BD3E7F221C27150048E5E8 /* Jewels and Stones.cpp */,
+				F2BD3E81221C350C0048E5E8 /* Number of 1 Bits.cpp */,
+				F2BD3E83221C378E0048E5E8 /* Single Number.cpp */,
+				F2BD3E89221C3D570048E5E8 /* Merge Two Sorted Lists.cpp */,
+				F2BD3E8B221C41D00048E5E8 /* Merge Sorted Array.cpp */,
+				F2BD3E8D221C46E20048E5E8 /* Hamming Distance.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -158,11 +179,18 @@
 				F27A031822196D9F0054F77C /* Binary Tree Inorder Traversal.cpp in Sources */,
 				F27A03122219606C0054F77C /* Reverse String.cpp in Sources */,
 				F25A37F02215620400E24058 /* Reverse Integer.cpp in Sources */,
+				F2BD3E8E221C46E20048E5E8 /* Hamming Distance.cpp in Sources */,
+				F2BD3E7E221C27060048E5E8 /* Counting Bits.cpp in Sources */,
 				F27A031E221989A70054F77C /* Longest Common Prefix.cpp in Sources */,
+				F2BD3E80221C27150048E5E8 /* Jewels and Stones.cpp in Sources */,
 				F27A0316221969F50054F77C /* Fizz Buzz.cpp in Sources */,
 				F27A0314221964F00054F77C /* Maximum Depth of Binary Tree.cpp in Sources */,
+				F2BD3E8C221C41D00048E5E8 /* Merge Sorted Array.cpp in Sources */,
+				F2BD3E8A221C3D570048E5E8 /* Merge Two Sorted Lists.cpp in Sources */,
+				F2BD3E82221C350C0048E5E8 /* Number of 1 Bits.cpp in Sources */,
 				F25A37F322156B8B00E24058 /* CountAndSay.cpp in Sources */,
 				F27A031C221984910054F77C /* Product of Array Except Self.cpp in Sources */,
+				F2BD3E84221C378E0048E5E8 /* Single Number.cpp in Sources */,
 				F25A37F12215620400E24058 /* Add Two Numbers.cpp in Sources */,
 				F25A37EE2215620400E24058 /* Two Sum.cpp in Sources */,
 			);

@@ -8,18 +8,39 @@
 
 #include <stdio.h>
 #include "Header.h"
+//recursion
+
+//class Solution {
+//public:
+//    vector<int> inorderTraversal(TreeNode* root) {
+//        vector<int> res;
+//        while (root) {
+//            res = inorderTraversal(root->left);
+//            res.push_back(root->val);
+//            inorderTraversal(root->right);
+//            vector<int> right = inorderTraversal(root->right);
+//            res.insert(res.end(), right.begin(), right.end());
+//        }
+//        return res;
+//    }
+//};
+
+//non-recursion(use stack)
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> res;
-        while (root) {
-            res = inorderTraversal(root->left);
+        stack<TreeNode *> stack;
+        while (root || !stack.empty()) {
+            while (root) {
+                stack.push(root);
+                root = root->left;
+            }
+            root = stack.top();
+            stack.pop();
             res.push_back(root->val);
-            inorderTraversal(root->right);
-            vector<int> right = inorderTraversal(root->right);
-            res.insert(res.end(), right.begin(), right.end());
+            root = root->right;
         }
         return res;
     }
 };
-
