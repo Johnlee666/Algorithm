@@ -26,6 +26,23 @@
 		F2BD3E8A221C3D570048E5E8 /* Merge Two Sorted Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E89221C3D570048E5E8 /* Merge Two Sorted Lists.cpp */; };
 		F2BD3E8C221C41D00048E5E8 /* Merge Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E8B221C41D00048E5E8 /* Merge Sorted Array.cpp */; };
 		F2BD3E8E221C46E20048E5E8 /* Hamming Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E8D221C46E20048E5E8 /* Hamming Distance.cpp */; };
+		F2BD3E90221C4F950048E5E8 /* Merge Two Binary Trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E8F221C4F950048E5E8 /* Merge Two Binary Trees.cpp */; };
+		F2BD3E92221C4FC60048E5E8 /* Move Zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E91221C4FC60048E5E8 /* Move Zeroes.cpp */; };
+		F2BD3E94221C4FD50048E5E8 /* Invert Binary Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E93221C4FD50048E5E8 /* Invert Binary Tree.cpp */; };
+		F2BD3E96221C50950048E5E8 /* Find All Numbers Disappeared in an Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E95221C50950048E5E8 /* Find All Numbers Disappeared in an Array.cpp */; };
+		F2BD3E98221C50D30048E5E8 /* Reverse Linked List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E97221C50D30048E5E8 /* Reverse Linked List.cpp */; };
+		F2BD3E9A221C50E00048E5E8 /* Majority Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E99221C50E00048E5E8 /* Majority Element.cpp */; };
+		F2BD3E9C221C50ED0048E5E8 /* Convert BST to Greater Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E9B221C50ED0048E5E8 /* Convert BST to Greater Tree.cpp */; };
+		F2BD3E9E221C51030048E5E8 /* Diameter of Binary Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3E9D221C51030048E5E8 /* Diameter of Binary Tree.cpp */; };
+		F2BD3EA2221D49540048E5E8 /* Linked List Cycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EA1221D49540048E5E8 /* Linked List Cycle.cpp */; };
+		F2BD3EA4221D4A1F0048E5E8 /* Min Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EA3221D4A1F0048E5E8 /* Min Stack.cpp */; };
+		F2BD3EA6221D4CED0048E5E8 /* Palindrome Linked List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EA5221D4CED0048E5E8 /* Palindrome Linked List.cpp */; };
+		F2BD3EA8221D50A80048E5E8 /* Find All Anagrams in a String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EA7221D50A80048E5E8 /* Find All Anagrams in a String.cpp */; };
+		F2BD3EAA221D510E0048E5E8 /* Linked List Cycle II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EA9221D510E0048E5E8 /* Linked List Cycle II.cpp */; };
+		F2BD3EAC221D51700048E5E8 /* Delete Node in a Linked List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EAB221D51700048E5E8 /* Delete Node in a Linked List.cpp */; };
+		F2BD3EAE221D624B0048E5E8 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EAD221D624B0048E5E8 /* Sqrt(x).cpp */; };
+		F2BD3EB0221D62620048E5E8 /* Valid Palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EAF221D62620048E5E8 /* Valid Palindrome.cpp */; };
+		F2BD3EB2221D62710048E5E8 /* Reverse Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EB1221D62710048E5E8 /* Reverse Bits.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +79,23 @@
 		F2BD3E89221C3D570048E5E8 /* Merge Two Sorted Lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Two Sorted Lists.cpp"; sourceTree = "<group>"; };
 		F2BD3E8B221C41D00048E5E8 /* Merge Sorted Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Sorted Array.cpp"; sourceTree = "<group>"; };
 		F2BD3E8D221C46E20048E5E8 /* Hamming Distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Hamming Distance.cpp"; sourceTree = "<group>"; };
+		F2BD3E8F221C4F950048E5E8 /* Merge Two Binary Trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Two Binary Trees.cpp"; sourceTree = "<group>"; };
+		F2BD3E91221C4FC60048E5E8 /* Move Zeroes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Move Zeroes.cpp"; sourceTree = "<group>"; };
+		F2BD3E93221C4FD50048E5E8 /* Invert Binary Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Invert Binary Tree.cpp"; sourceTree = "<group>"; };
+		F2BD3E95221C50950048E5E8 /* Find All Numbers Disappeared in an Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Find All Numbers Disappeared in an Array.cpp"; sourceTree = "<group>"; };
+		F2BD3E97221C50D30048E5E8 /* Reverse Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Linked List.cpp"; sourceTree = "<group>"; };
+		F2BD3E99221C50E00048E5E8 /* Majority Element.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Majority Element.cpp"; sourceTree = "<group>"; };
+		F2BD3E9B221C50ED0048E5E8 /* Convert BST to Greater Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Convert BST to Greater Tree.cpp"; sourceTree = "<group>"; };
+		F2BD3E9D221C51030048E5E8 /* Diameter of Binary Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Diameter of Binary Tree.cpp"; sourceTree = "<group>"; };
+		F2BD3EA1221D49540048E5E8 /* Linked List Cycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Linked List Cycle.cpp"; sourceTree = "<group>"; };
+		F2BD3EA3221D4A1F0048E5E8 /* Min Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Min Stack.cpp"; sourceTree = "<group>"; };
+		F2BD3EA5221D4CED0048E5E8 /* Palindrome Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Palindrome Linked List.cpp"; sourceTree = "<group>"; };
+		F2BD3EA7221D50A80048E5E8 /* Find All Anagrams in a String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Find All Anagrams in a String.cpp"; sourceTree = "<group>"; };
+		F2BD3EA9221D510E0048E5E8 /* Linked List Cycle II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Linked List Cycle II.cpp"; sourceTree = "<group>"; };
+		F2BD3EAB221D51700048E5E8 /* Delete Node in a Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Delete Node in a Linked List.cpp"; sourceTree = "<group>"; };
+		F2BD3EAD221D624B0048E5E8 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
+		F2BD3EAF221D62620048E5E8 /* Valid Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid Palindrome.cpp"; sourceTree = "<group>"; };
+		F2BD3EB1221D62710048E5E8 /* Reverse Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Bits.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +148,23 @@
 				F2BD3E89221C3D570048E5E8 /* Merge Two Sorted Lists.cpp */,
 				F2BD3E8B221C41D00048E5E8 /* Merge Sorted Array.cpp */,
 				F2BD3E8D221C46E20048E5E8 /* Hamming Distance.cpp */,
+				F2BD3E8F221C4F950048E5E8 /* Merge Two Binary Trees.cpp */,
+				F2BD3E91221C4FC60048E5E8 /* Move Zeroes.cpp */,
+				F2BD3E93221C4FD50048E5E8 /* Invert Binary Tree.cpp */,
+				F2BD3E95221C50950048E5E8 /* Find All Numbers Disappeared in an Array.cpp */,
+				F2BD3E97221C50D30048E5E8 /* Reverse Linked List.cpp */,
+				F2BD3E99221C50E00048E5E8 /* Majority Element.cpp */,
+				F2BD3E9B221C50ED0048E5E8 /* Convert BST to Greater Tree.cpp */,
+				F2BD3E9D221C51030048E5E8 /* Diameter of Binary Tree.cpp */,
+				F2BD3EA1221D49540048E5E8 /* Linked List Cycle.cpp */,
+				F2BD3EA9221D510E0048E5E8 /* Linked List Cycle II.cpp */,
+				F2BD3EA3221D4A1F0048E5E8 /* Min Stack.cpp */,
+				F2BD3EA5221D4CED0048E5E8 /* Palindrome Linked List.cpp */,
+				F2BD3EA7221D50A80048E5E8 /* Find All Anagrams in a String.cpp */,
+				F2BD3EAB221D51700048E5E8 /* Delete Node in a Linked List.cpp */,
+				F2BD3EAD221D624B0048E5E8 /* Sqrt(x).cpp */,
+				F2BD3EAF221D62620048E5E8 /* Valid Palindrome.cpp */,
+				F2BD3EB1221D62710048E5E8 /* Reverse Bits.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -176,23 +227,40 @@
 			files = (
 				F25A37EF2215620400E24058 /* Longest Substring Without Repeating Characters.cpp in Sources */,
 				F25A37E2221561E000E24058 /* main.cpp in Sources */,
+				F2BD3EB0221D62620048E5E8 /* Valid Palindrome.cpp in Sources */,
 				F27A031822196D9F0054F77C /* Binary Tree Inorder Traversal.cpp in Sources */,
 				F27A03122219606C0054F77C /* Reverse String.cpp in Sources */,
 				F25A37F02215620400E24058 /* Reverse Integer.cpp in Sources */,
+				F2BD3E92221C4FC60048E5E8 /* Move Zeroes.cpp in Sources */,
+				F2BD3E90221C4F950048E5E8 /* Merge Two Binary Trees.cpp in Sources */,
 				F2BD3E8E221C46E20048E5E8 /* Hamming Distance.cpp in Sources */,
 				F2BD3E7E221C27060048E5E8 /* Counting Bits.cpp in Sources */,
 				F27A031E221989A70054F77C /* Longest Common Prefix.cpp in Sources */,
 				F2BD3E80221C27150048E5E8 /* Jewels and Stones.cpp in Sources */,
+				F2BD3EAC221D51700048E5E8 /* Delete Node in a Linked List.cpp in Sources */,
 				F27A0316221969F50054F77C /* Fizz Buzz.cpp in Sources */,
+				F2BD3EA4221D4A1F0048E5E8 /* Min Stack.cpp in Sources */,
 				F27A0314221964F00054F77C /* Maximum Depth of Binary Tree.cpp in Sources */,
+				F2BD3EAE221D624B0048E5E8 /* Sqrt(x).cpp in Sources */,
+				F2BD3E96221C50950048E5E8 /* Find All Numbers Disappeared in an Array.cpp in Sources */,
+				F2BD3EA2221D49540048E5E8 /* Linked List Cycle.cpp in Sources */,
+				F2BD3EB2221D62710048E5E8 /* Reverse Bits.cpp in Sources */,
 				F2BD3E8C221C41D00048E5E8 /* Merge Sorted Array.cpp in Sources */,
+				F2BD3E9C221C50ED0048E5E8 /* Convert BST to Greater Tree.cpp in Sources */,
 				F2BD3E8A221C3D570048E5E8 /* Merge Two Sorted Lists.cpp in Sources */,
+				F2BD3E9E221C51030048E5E8 /* Diameter of Binary Tree.cpp in Sources */,
 				F2BD3E82221C350C0048E5E8 /* Number of 1 Bits.cpp in Sources */,
+				F2BD3E94221C4FD50048E5E8 /* Invert Binary Tree.cpp in Sources */,
 				F25A37F322156B8B00E24058 /* CountAndSay.cpp in Sources */,
 				F27A031C221984910054F77C /* Product of Array Except Self.cpp in Sources */,
+				F2BD3EA8221D50A80048E5E8 /* Find All Anagrams in a String.cpp in Sources */,
 				F2BD3E84221C378E0048E5E8 /* Single Number.cpp in Sources */,
 				F25A37F12215620400E24058 /* Add Two Numbers.cpp in Sources */,
+				F2BD3EA6221D4CED0048E5E8 /* Palindrome Linked List.cpp in Sources */,
 				F25A37EE2215620400E24058 /* Two Sum.cpp in Sources */,
+				F2BD3E9A221C50E00048E5E8 /* Majority Element.cpp in Sources */,
+				F2BD3EAA221D510E0048E5E8 /* Linked List Cycle II.cpp in Sources */,
+				F2BD3E98221C50D30048E5E8 /* Reverse Linked List.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
