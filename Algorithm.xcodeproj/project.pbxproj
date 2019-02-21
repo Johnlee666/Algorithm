@@ -43,6 +43,13 @@
 		F2BD3EAE221D624B0048E5E8 /* Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EAD221D624B0048E5E8 /* Sqrt(x).cpp */; };
 		F2BD3EB0221D62620048E5E8 /* Valid Palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EAF221D62620048E5E8 /* Valid Palindrome.cpp */; };
 		F2BD3EB2221D62710048E5E8 /* Reverse Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EB1221D62710048E5E8 /* Reverse Bits.cpp */; };
+		F2BD3EB4221ED1ED0048E5E8 /* Intersection of Two Linked Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EB3221ED1ED0048E5E8 /* Intersection of Two Linked Lists.cpp */; };
+		F2BD3EB6221ED4480048E5E8 /* Shortest Unsorted Continuous Subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EB5221ED4480048E5E8 /* Shortest Unsorted Continuous Subarray.cpp */; };
+		F2BD3EB8221ED84B0048E5E8 /* Flatten Binary Tree to Linked List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EB7221ED84B0048E5E8 /* Flatten Binary Tree to Linked List.cpp */; };
+		F2BD3EBA221EDB8B0048E5E8 /* Symmetric Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EB9221EDB8B0048E5E8 /* Symmetric Tree.cpp */; };
+		F2BD3EBC221EDBC90048E5E8 /* Path Sum III.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EBB221EDBC90048E5E8 /* Path Sum III.cpp */; };
+		F2BD3EBE221EDBE20048E5E8 /* Subtree of Another Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EBD221EDBE20048E5E8 /* Subtree of Another Tree.cpp */; };
+		F2BD3EC0221EDC460048E5E8 /* Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EBF221EDC460048E5E8 /* Valid Parentheses.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +103,13 @@
 		F2BD3EAD221D624B0048E5E8 /* Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sqrt(x).cpp"; sourceTree = "<group>"; };
 		F2BD3EAF221D62620048E5E8 /* Valid Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid Palindrome.cpp"; sourceTree = "<group>"; };
 		F2BD3EB1221D62710048E5E8 /* Reverse Bits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Bits.cpp"; sourceTree = "<group>"; };
+		F2BD3EB3221ED1ED0048E5E8 /* Intersection of Two Linked Lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Intersection of Two Linked Lists.cpp"; sourceTree = "<group>"; };
+		F2BD3EB5221ED4480048E5E8 /* Shortest Unsorted Continuous Subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Shortest Unsorted Continuous Subarray.cpp"; sourceTree = "<group>"; };
+		F2BD3EB7221ED84B0048E5E8 /* Flatten Binary Tree to Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Flatten Binary Tree to Linked List.cpp"; sourceTree = "<group>"; };
+		F2BD3EB9221EDB8B0048E5E8 /* Symmetric Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Symmetric Tree.cpp"; sourceTree = "<group>"; };
+		F2BD3EBB221EDBC90048E5E8 /* Path Sum III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Path Sum III.cpp"; sourceTree = "<group>"; };
+		F2BD3EBD221EDBE20048E5E8 /* Subtree of Another Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Subtree of Another Tree.cpp"; sourceTree = "<group>"; };
+		F2BD3EBF221EDC460048E5E8 /* Valid Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid Parentheses.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +144,9 @@
 			children = (
 				F27A031A22196E320054F77C /* Header.h */,
 				F25A37E1221561E000E24058 /* main.cpp */,
-				F25A37ED2215620400E24058 /* Add Two Numbers.cpp */,
 				F25A37EA2215620400E24058 /* Longest Substring Without Repeating Characters.cpp */,
+				F2BD3EA7221D50A80048E5E8 /* Find All Anagrams in a String.cpp */,
+				F25A37ED2215620400E24058 /* Add Two Numbers.cpp */,
 				F25A37EC2215620400E24058 /* Reverse Integer.cpp */,
 				F25A37E82215620400E24058 /* Two Sum.cpp */,
 				F25A37F222156B8B00E24058 /* CountAndSay.cpp */,
@@ -154,17 +169,23 @@
 				F2BD3E95221C50950048E5E8 /* Find All Numbers Disappeared in an Array.cpp */,
 				F2BD3E97221C50D30048E5E8 /* Reverse Linked List.cpp */,
 				F2BD3E99221C50E00048E5E8 /* Majority Element.cpp */,
-				F2BD3E9B221C50ED0048E5E8 /* Convert BST to Greater Tree.cpp */,
-				F2BD3E9D221C51030048E5E8 /* Diameter of Binary Tree.cpp */,
 				F2BD3EA1221D49540048E5E8 /* Linked List Cycle.cpp */,
 				F2BD3EA9221D510E0048E5E8 /* Linked List Cycle II.cpp */,
 				F2BD3EA3221D4A1F0048E5E8 /* Min Stack.cpp */,
 				F2BD3EA5221D4CED0048E5E8 /* Palindrome Linked List.cpp */,
-				F2BD3EA7221D50A80048E5E8 /* Find All Anagrams in a String.cpp */,
 				F2BD3EAB221D51700048E5E8 /* Delete Node in a Linked List.cpp */,
 				F2BD3EAD221D624B0048E5E8 /* Sqrt(x).cpp */,
 				F2BD3EAF221D62620048E5E8 /* Valid Palindrome.cpp */,
 				F2BD3EB1221D62710048E5E8 /* Reverse Bits.cpp */,
+				F2BD3EB5221ED4480048E5E8 /* Shortest Unsorted Continuous Subarray.cpp */,
+				F2BD3EBF221EDC460048E5E8 /* Valid Parentheses.cpp */,
+				F2BD3EB3221ED1ED0048E5E8 /* Intersection of Two Linked Lists.cpp */,
+				F2BD3E9B221C50ED0048E5E8 /* Convert BST to Greater Tree.cpp */,
+				F2BD3E9D221C51030048E5E8 /* Diameter of Binary Tree.cpp */,
+				F2BD3EB7221ED84B0048E5E8 /* Flatten Binary Tree to Linked List.cpp */,
+				F2BD3EB9221EDB8B0048E5E8 /* Symmetric Tree.cpp */,
+				F2BD3EBB221EDBC90048E5E8 /* Path Sum III.cpp */,
+				F2BD3EBD221EDBE20048E5E8 /* Subtree of Another Tree.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -233,6 +254,7 @@
 				F25A37F02215620400E24058 /* Reverse Integer.cpp in Sources */,
 				F2BD3E92221C4FC60048E5E8 /* Move Zeroes.cpp in Sources */,
 				F2BD3E90221C4F950048E5E8 /* Merge Two Binary Trees.cpp in Sources */,
+				F2BD3EBA221EDB8B0048E5E8 /* Symmetric Tree.cpp in Sources */,
 				F2BD3E8E221C46E20048E5E8 /* Hamming Distance.cpp in Sources */,
 				F2BD3E7E221C27060048E5E8 /* Counting Bits.cpp in Sources */,
 				F27A031E221989A70054F77C /* Longest Common Prefix.cpp in Sources */,
@@ -245,6 +267,7 @@
 				F2BD3E96221C50950048E5E8 /* Find All Numbers Disappeared in an Array.cpp in Sources */,
 				F2BD3EA2221D49540048E5E8 /* Linked List Cycle.cpp in Sources */,
 				F2BD3EB2221D62710048E5E8 /* Reverse Bits.cpp in Sources */,
+				F2BD3EBC221EDBC90048E5E8 /* Path Sum III.cpp in Sources */,
 				F2BD3E8C221C41D00048E5E8 /* Merge Sorted Array.cpp in Sources */,
 				F2BD3E9C221C50ED0048E5E8 /* Convert BST to Greater Tree.cpp in Sources */,
 				F2BD3E8A221C3D570048E5E8 /* Merge Two Sorted Lists.cpp in Sources */,
@@ -252,15 +275,20 @@
 				F2BD3E82221C350C0048E5E8 /* Number of 1 Bits.cpp in Sources */,
 				F2BD3E94221C4FD50048E5E8 /* Invert Binary Tree.cpp in Sources */,
 				F25A37F322156B8B00E24058 /* CountAndSay.cpp in Sources */,
+				F2BD3EB4221ED1ED0048E5E8 /* Intersection of Two Linked Lists.cpp in Sources */,
 				F27A031C221984910054F77C /* Product of Array Except Self.cpp in Sources */,
 				F2BD3EA8221D50A80048E5E8 /* Find All Anagrams in a String.cpp in Sources */,
+				F2BD3EBE221EDBE20048E5E8 /* Subtree of Another Tree.cpp in Sources */,
 				F2BD3E84221C378E0048E5E8 /* Single Number.cpp in Sources */,
 				F25A37F12215620400E24058 /* Add Two Numbers.cpp in Sources */,
 				F2BD3EA6221D4CED0048E5E8 /* Palindrome Linked List.cpp in Sources */,
 				F25A37EE2215620400E24058 /* Two Sum.cpp in Sources */,
+				F2BD3EB6221ED4480048E5E8 /* Shortest Unsorted Continuous Subarray.cpp in Sources */,
+				F2BD3EC0221EDC460048E5E8 /* Valid Parentheses.cpp in Sources */,
 				F2BD3E9A221C50E00048E5E8 /* Majority Element.cpp in Sources */,
 				F2BD3EAA221D510E0048E5E8 /* Linked List Cycle II.cpp in Sources */,
 				F2BD3E98221C50D30048E5E8 /* Reverse Linked List.cpp in Sources */,
+				F2BD3EB8221ED84B0048E5E8 /* Flatten Binary Tree to Linked List.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
