@@ -50,6 +50,17 @@
 		F2BD3EBC221EDBC90048E5E8 /* Path Sum III.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EBB221EDBC90048E5E8 /* Path Sum III.cpp */; };
 		F2BD3EBE221EDBE20048E5E8 /* Subtree of Another Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EBD221EDBE20048E5E8 /* Subtree of Another Tree.cpp */; };
 		F2BD3EC0221EDC460048E5E8 /* Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EBF221EDC460048E5E8 /* Valid Parentheses.cpp */; };
+		F2BD3EE7222045640048E5E8 /* Excel Sheet Column Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EDC222045620048E5E8 /* Excel Sheet Column Number.cpp */; };
+		F2BD3EE8222045640048E5E8 /* Factorial Trailing Zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EDD222045630048E5E8 /* Factorial Trailing Zeroes.cpp */; };
+		F2BD3EE9222045640048E5E8 /* Valid Anagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EDE222045630048E5E8 /* Valid Anagram.cpp */; };
+		F2BD3EEA222045640048E5E8 /* First Unique Character in a String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EDF222045630048E5E8 /* First Unique Character in a String.cpp */; };
+		F2BD3EEB222045640048E5E8 /* Sum of Two Integers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EE0222045630048E5E8 /* Sum of Two Integers.cpp */; };
+		F2BD3EEC222045640048E5E8 /* Roman to Integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EE1222045630048E5E8 /* Roman to Integer.cpp */; };
+		F2BD3EED222045640048E5E8 /* Intersection of Two Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EE2222045630048E5E8 /* Intersection of Two Arrays.cpp */; };
+		F2BD3EEE222045640048E5E8 /* Implement strStr().cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EE3222045640048E5E8 /* Implement strStr().cpp */; };
+		F2BD3EEF222045640048E5E8 /* Repeated Substring Pattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EE4222045640048E5E8 /* Repeated Substring Pattern.cpp */; };
+		F2BD3EF0222045640048E5E8 /* Contains Duplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EE5222045640048E5E8 /* Contains Duplicate.cpp */; };
+		F2BD3EF1222045640048E5E8 /* Remove Duplicates from Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD3EE6222045640048E5E8 /* Remove Duplicates from Sorted Array.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,6 +121,17 @@
 		F2BD3EBB221EDBC90048E5E8 /* Path Sum III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Path Sum III.cpp"; sourceTree = "<group>"; };
 		F2BD3EBD221EDBE20048E5E8 /* Subtree of Another Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Subtree of Another Tree.cpp"; sourceTree = "<group>"; };
 		F2BD3EBF221EDC460048E5E8 /* Valid Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid Parentheses.cpp"; sourceTree = "<group>"; };
+		F2BD3EDC222045620048E5E8 /* Excel Sheet Column Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Excel Sheet Column Number.cpp"; sourceTree = "<group>"; };
+		F2BD3EDD222045630048E5E8 /* Factorial Trailing Zeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Factorial Trailing Zeroes.cpp"; sourceTree = "<group>"; };
+		F2BD3EDE222045630048E5E8 /* Valid Anagram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid Anagram.cpp"; sourceTree = "<group>"; };
+		F2BD3EDF222045630048E5E8 /* First Unique Character in a String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "First Unique Character in a String.cpp"; sourceTree = "<group>"; };
+		F2BD3EE0222045630048E5E8 /* Sum of Two Integers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum of Two Integers.cpp"; sourceTree = "<group>"; };
+		F2BD3EE1222045630048E5E8 /* Roman to Integer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Roman to Integer.cpp"; sourceTree = "<group>"; };
+		F2BD3EE2222045630048E5E8 /* Intersection of Two Arrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Intersection of Two Arrays.cpp"; sourceTree = "<group>"; };
+		F2BD3EE3222045640048E5E8 /* Implement strStr().cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Implement strStr().cpp"; sourceTree = "<group>"; };
+		F2BD3EE4222045640048E5E8 /* Repeated Substring Pattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Repeated Substring Pattern.cpp"; sourceTree = "<group>"; };
+		F2BD3EE5222045640048E5E8 /* Contains Duplicate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Contains Duplicate.cpp"; sourceTree = "<group>"; };
+		F2BD3EE6222045640048E5E8 /* Remove Duplicates from Sorted Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove Duplicates from Sorted Array.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +208,17 @@
 				F2BD3EB9221EDB8B0048E5E8 /* Symmetric Tree.cpp */,
 				F2BD3EBB221EDBC90048E5E8 /* Path Sum III.cpp */,
 				F2BD3EBD221EDBE20048E5E8 /* Subtree of Another Tree.cpp */,
+				F2BD3EE5222045640048E5E8 /* Contains Duplicate.cpp */,
+				F2BD3EDC222045620048E5E8 /* Excel Sheet Column Number.cpp */,
+				F2BD3EDD222045630048E5E8 /* Factorial Trailing Zeroes.cpp */,
+				F2BD3EDF222045630048E5E8 /* First Unique Character in a String.cpp */,
+				F2BD3EE3222045640048E5E8 /* Implement strStr().cpp */,
+				F2BD3EE2222045630048E5E8 /* Intersection of Two Arrays.cpp */,
+				F2BD3EE6222045640048E5E8 /* Remove Duplicates from Sorted Array.cpp */,
+				F2BD3EE4222045640048E5E8 /* Repeated Substring Pattern.cpp */,
+				F2BD3EE1222045630048E5E8 /* Roman to Integer.cpp */,
+				F2BD3EE0222045630048E5E8 /* Sum of Two Integers.cpp */,
+				F2BD3EDE222045630048E5E8 /* Valid Anagram.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -247,20 +280,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				F25A37EF2215620400E24058 /* Longest Substring Without Repeating Characters.cpp in Sources */,
+				F2BD3EE9222045640048E5E8 /* Valid Anagram.cpp in Sources */,
 				F25A37E2221561E000E24058 /* main.cpp in Sources */,
+				F2BD3EE8222045640048E5E8 /* Factorial Trailing Zeroes.cpp in Sources */,
 				F2BD3EB0221D62620048E5E8 /* Valid Palindrome.cpp in Sources */,
 				F27A031822196D9F0054F77C /* Binary Tree Inorder Traversal.cpp in Sources */,
 				F27A03122219606C0054F77C /* Reverse String.cpp in Sources */,
 				F25A37F02215620400E24058 /* Reverse Integer.cpp in Sources */,
 				F2BD3E92221C4FC60048E5E8 /* Move Zeroes.cpp in Sources */,
+				F2BD3EED222045640048E5E8 /* Intersection of Two Arrays.cpp in Sources */,
 				F2BD3E90221C4F950048E5E8 /* Merge Two Binary Trees.cpp in Sources */,
 				F2BD3EBA221EDB8B0048E5E8 /* Symmetric Tree.cpp in Sources */,
+				F2BD3EF1222045640048E5E8 /* Remove Duplicates from Sorted Array.cpp in Sources */,
+				F2BD3EEF222045640048E5E8 /* Repeated Substring Pattern.cpp in Sources */,
 				F2BD3E8E221C46E20048E5E8 /* Hamming Distance.cpp in Sources */,
 				F2BD3E7E221C27060048E5E8 /* Counting Bits.cpp in Sources */,
+				F2BD3EEB222045640048E5E8 /* Sum of Two Integers.cpp in Sources */,
 				F27A031E221989A70054F77C /* Longest Common Prefix.cpp in Sources */,
 				F2BD3E80221C27150048E5E8 /* Jewels and Stones.cpp in Sources */,
 				F2BD3EAC221D51700048E5E8 /* Delete Node in a Linked List.cpp in Sources */,
 				F27A0316221969F50054F77C /* Fizz Buzz.cpp in Sources */,
+				F2BD3EE7222045640048E5E8 /* Excel Sheet Column Number.cpp in Sources */,
 				F2BD3EA4221D4A1F0048E5E8 /* Min Stack.cpp in Sources */,
 				F27A0314221964F00054F77C /* Maximum Depth of Binary Tree.cpp in Sources */,
 				F2BD3EAE221D624B0048E5E8 /* Sqrt(x).cpp in Sources */,
@@ -273,6 +313,8 @@
 				F2BD3E8A221C3D570048E5E8 /* Merge Two Sorted Lists.cpp in Sources */,
 				F2BD3E9E221C51030048E5E8 /* Diameter of Binary Tree.cpp in Sources */,
 				F2BD3E82221C350C0048E5E8 /* Number of 1 Bits.cpp in Sources */,
+				F2BD3EEC222045640048E5E8 /* Roman to Integer.cpp in Sources */,
+				F2BD3EF0222045640048E5E8 /* Contains Duplicate.cpp in Sources */,
 				F2BD3E94221C4FD50048E5E8 /* Invert Binary Tree.cpp in Sources */,
 				F25A37F322156B8B00E24058 /* CountAndSay.cpp in Sources */,
 				F2BD3EB4221ED1ED0048E5E8 /* Intersection of Two Linked Lists.cpp in Sources */,
@@ -284,11 +326,13 @@
 				F2BD3EA6221D4CED0048E5E8 /* Palindrome Linked List.cpp in Sources */,
 				F25A37EE2215620400E24058 /* Two Sum.cpp in Sources */,
 				F2BD3EB6221ED4480048E5E8 /* Shortest Unsorted Continuous Subarray.cpp in Sources */,
+				F2BD3EEA222045640048E5E8 /* First Unique Character in a String.cpp in Sources */,
 				F2BD3EC0221EDC460048E5E8 /* Valid Parentheses.cpp in Sources */,
 				F2BD3E9A221C50E00048E5E8 /* Majority Element.cpp in Sources */,
 				F2BD3EAA221D510E0048E5E8 /* Linked List Cycle II.cpp in Sources */,
 				F2BD3E98221C50D30048E5E8 /* Reverse Linked List.cpp in Sources */,
 				F2BD3EB8221ED84B0048E5E8 /* Flatten Binary Tree to Linked List.cpp in Sources */,
+				F2BD3EEE222045640048E5E8 /* Implement strStr().cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,3 +7,24 @@
 //
 
 #include <stdio.h>
+#include "Header.h"
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        if (s.size() != t.size()) {
+            return false;
+        }
+        unordered_map<char, int> map;
+        for (int i = 0 ; i < s.size(); i++) {
+            map[s[i]]++;
+            map[t[i]]--;
+        }
+        unordered_map<char, int>::iterator iter;
+        for (iter = map.begin(); iter != map.end(); iter++) {
+            if (iter->second != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+};
