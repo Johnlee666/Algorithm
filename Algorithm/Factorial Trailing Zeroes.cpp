@@ -7,3 +7,24 @@
 //
 
 #include <stdio.h>
+//class Solution {
+//public:
+//    int trailingZeroes(int n) {
+//        if (n == 0) {
+//            return 0;
+//        }
+//        return n/5 + trailingZeroes(n/5);
+//    }
+//};
+
+class Solution {
+public:
+    int trailingZeroes(int n) {
+        int result = 0;
+        while (n) {
+            n = n/5;
+            result += n;
+        }
+        return result;
+    }
+};

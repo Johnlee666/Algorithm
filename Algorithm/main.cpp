@@ -7,10 +7,7 @@
 //
 
 #include <iostream>
-#include "Valid Palindrome.cpp"
 int main(int argc, const char * argv[]) {
-    Solution s;
-    s.isPalindrome(".");
     // insert code here...
     std::cout << "Hello, World!\n";
     return 0;

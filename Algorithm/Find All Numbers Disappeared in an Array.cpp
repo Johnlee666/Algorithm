@@ -8,18 +8,34 @@
 
 #include <stdio.h>
 #include "Header.h"
+//class Solution {
+//public:
+//    vector<int> findDisappearedNumbers(vector<int>& nums) {
+//        vector<int> res;
+//        set<int> set;
+//        for (int i = 0; i < nums.size(); i++) {
+//            set.insert(nums[i]);
+//        }
+//        for (int i = 1; i <= nums.size(); i++) {
+//            if (set.find(i) == set.end()) {
+//                res.push_back(i);
+//            }
+//        }
+//        return res;
+//    }
+//};
+
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
-        vector<int> res;
-        set<int> set;
-        for (int i = 0; i < nums.size(); i++) {
-            set.insert(nums[i]);
+        int len = nums.size();
+        for(int i=0; i<len; i++) {
+            int m = abs(nums[i])-1; // index start from 0
+            nums[m] = -abs(nums[m]);
         }
-        for (int i = 1; i <= nums.size(); i++) {
-            if (set.find(i) == set.end()) {
-                res.push_back(i);
-            }
+        vector<int> res;
+        for(int i = 0; i<len; i++) {
+            if(nums[i] > 0) res.push_back(i+1);
         }
         return res;
     }
