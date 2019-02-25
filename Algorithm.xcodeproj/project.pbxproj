@@ -29,7 +29,6 @@
 		F2BD4095222283230048E5E8 /* Ugly Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD402A222283210048E5E8 /* Ugly Number.cpp */; };
 		F2BD4096222283230048E5E8 /* Factorial Trailing Zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD402B222283210048E5E8 /* Factorial Trailing Zeroes.cpp */; };
 		F2BD4097222283230048E5E8 /* Find All Numbers Disappeared in an Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD4034222283210048E5E8 /* Find All Numbers Disappeared in an Array.cpp */; };
-		F2BD4098222283230048E5E8 /* Plus One.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD4035222283210048E5E8 /* Plus One.cpp */; };
 		F2BD4099222283230048E5E8 /* Merge Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD4036222283210048E5E8 /* Merge Sorted Array.cpp */; };
 		F2BD409A222283230048E5E8 /* Rotate Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD4037222283210048E5E8 /* Rotate Array.cpp */; };
 		F2BD409B222283230048E5E8 /* Shortest Unsorted Continuous Subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD4038222283210048E5E8 /* Shortest Unsorted Continuous Subarray.cpp */; };
@@ -78,6 +77,7 @@
 		F2BD40C6222283230048E5E8 /* Sum of Two Integers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD407F222283220048E5E8 /* Sum of Two Integers.cpp */; };
 		F2BD40C7222283230048E5E8 /* Counting Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD4082222283220048E5E8 /* Counting Bits.cpp */; };
 		F2BD40C92222835F0048E5E8 /* Add Binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD40C82222835F0048E5E8 /* Add Binary.cpp */; };
+		F2BD40CB22229F1F0048E5E8 /* Plus One.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD40CA22229F1F0048E5E8 /* Plus One.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -117,7 +117,6 @@
 		F2BD402A222283210048E5E8 /* Ugly Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Ugly Number.cpp"; sourceTree = "<group>"; };
 		F2BD402B222283210048E5E8 /* Factorial Trailing Zeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Factorial Trailing Zeroes.cpp"; sourceTree = "<group>"; };
 		F2BD4034222283210048E5E8 /* Find All Numbers Disappeared in an Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Find All Numbers Disappeared in an Array.cpp"; sourceTree = "<group>"; };
-		F2BD4035222283210048E5E8 /* Plus One.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Plus One.cpp"; sourceTree = "<group>"; };
 		F2BD4036222283210048E5E8 /* Merge Sorted Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Sorted Array.cpp"; sourceTree = "<group>"; };
 		F2BD4037222283210048E5E8 /* Rotate Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rotate Array.cpp"; sourceTree = "<group>"; };
 		F2BD4038222283210048E5E8 /* Shortest Unsorted Continuous Subarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Shortest Unsorted Continuous Subarray.cpp"; sourceTree = "<group>"; };
@@ -166,6 +165,7 @@
 		F2BD407F222283220048E5E8 /* Sum of Two Integers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Sum of Two Integers.cpp"; sourceTree = "<group>"; };
 		F2BD4082222283220048E5E8 /* Counting Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Counting Bits.cpp"; sourceTree = "<group>"; };
 		F2BD40C82222835F0048E5E8 /* Add Binary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Add Binary.cpp"; sourceTree = "<group>"; };
+		F2BD40CA22229F1F0048E5E8 /* Plus One.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Plus One.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,10 +228,10 @@
 		F2BD4013222283210048E5E8 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				F2BD4017222283210048E5E8 /* Find All Anagrams in a String.cpp */,
 				F2BD4014222283210048E5E8 /* Find the Difference.cpp */,
 				F2BD4015222283210048E5E8 /* Jewels and Stones.cpp */,
 				F2BD4016222283210048E5E8 /* Intersection of Two Arrays II.cpp */,
-				F2BD4017222283210048E5E8 /* Find All Anagrams in a String.cpp */,
 				F2BD4018222283210048E5E8 /* First Unique Character in a String.cpp */,
 				F2BD4019222283210048E5E8 /* Valid Anagram.cpp */,
 				F2BD401A222283210048E5E8 /* Contains Duplicate.cpp */,
@@ -267,14 +267,14 @@
 		F2BD401F222283210048E5E8 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
-				F2BD4020222283210048E5E8 /* Pascal's Triangle.cpp */,
+				F2BD4026222283210048E5E8 /* Majority Element.cpp */,
+				F2BD4022222283210048E5E8 /* Count Primes.cpp */,
+				F2BD40CA22229F1F0048E5E8 /* Plus One.cpp */,
 				F2BD40C82222835F0048E5E8 /* Add Binary.cpp */,
 				F2BD4021222283210048E5E8 /* Happy Number.cpp */,
-				F2BD4022222283210048E5E8 /* Count Primes.cpp */,
 				F2BD4023222283210048E5E8 /* Two Sum.cpp */,
 				F2BD4024222283210048E5E8 /* Missing Number.cpp */,
 				F2BD4025222283210048E5E8 /* Reverse Integer.cpp */,
-				F2BD4026222283210048E5E8 /* Majority Element.cpp */,
 				F2BD4027222283210048E5E8 /* Sqrt(x).cpp */,
 				F2BD4028222283210048E5E8 /* Power of Three.cpp */,
 				F2BD4029222283210048E5E8 /* Excel Sheet Column Number.cpp */,
@@ -342,11 +342,11 @@
 		F2BD4033222283210048E5E8 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				F2BD4038222283210048E5E8 /* Shortest Unsorted Continuous Subarray.cpp */,
+				F2BD4020222283210048E5E8 /* Pascal's Triangle.cpp */,
 				F2BD4034222283210048E5E8 /* Find All Numbers Disappeared in an Array.cpp */,
-				F2BD4035222283210048E5E8 /* Plus One.cpp */,
 				F2BD4036222283210048E5E8 /* Merge Sorted Array.cpp */,
 				F2BD4037222283210048E5E8 /* Rotate Array.cpp */,
-				F2BD4038222283210048E5E8 /* Shortest Unsorted Continuous Subarray.cpp */,
 				F2BD4039222283210048E5E8 /* Remove Duplicates from Sorted Array.cpp */,
 				F2BD403A222283210048E5E8 /* Move Zeroes.cpp */,
 			);
@@ -414,13 +414,13 @@
 		F2BD4045222283220048E5E8 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
-				F2BD4046222283220048E5E8 /* Fizz Buzz.cpp */,
-				F2BD4047222283220048E5E8 /* Roman to Integer.cpp */,
 				F2BD4048222283220048E5E8 /* Repeated Substring Pattern.cpp */,
-				F2BD4049222283220048E5E8 /* CountAndSay.cpp */,
-				F2BD404A222283220048E5E8 /* Reverse String.cpp */,
 				F2BD404B222283220048E5E8 /* Implement strStr().cpp */,
 				F2BD404C222283220048E5E8 /* Add Binary.cpp */,
+				F2BD4046222283220048E5E8 /* Fizz Buzz.cpp */,
+				F2BD4047222283220048E5E8 /* Roman to Integer.cpp */,
+				F2BD4049222283220048E5E8 /* CountAndSay.cpp */,
+				F2BD404A222283220048E5E8 /* Reverse String.cpp */,
 				F2BD404D222283220048E5E8 /* Valid Palindrome.cpp */,
 				F2BD404E222283220048E5E8 /* Longest Common Prefix.cpp */,
 			);
@@ -488,8 +488,8 @@
 		F2BD4059222283220048E5E8 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
-				F2BD405A222283220048E5E8 /* Intersection of Two Linked Lists.cpp */,
 				F2BD405B222283220048E5E8 /* Remove Linked List Elements.cpp */,
+				F2BD405A222283220048E5E8 /* Intersection of Two Linked Lists.cpp */,
 				F2BD405C222283220048E5E8 /* Merge Two Sorted Lists.cpp */,
 				F2BD405D222283220048E5E8 /* Linked List Cycle.cpp */,
 				F2BD405E222283220048E5E8 /* Palindrome Linked List.cpp */,
@@ -530,10 +530,10 @@
 			children = (
 				F2BD4067222283220048E5E8 /* Subtree of Another Tree.cpp */,
 				F2BD4068222283220048E5E8 /* Same Tree.cpp */,
-				F2BD4069222283220048E5E8 /* Maximum Depth of Binary Tree.cpp */,
 				F2BD406A222283220048E5E8 /* Symmetric Tree.cpp */,
 				F2BD406B222283220048E5E8 /* Two Sum IV - Input is a BST.cpp */,
 				F2BD406C222283220048E5E8 /* Path Sum III.cpp */,
+				F2BD4069222283220048E5E8 /* Maximum Depth of Binary Tree.cpp */,
 				F2BD406D222283220048E5E8 /* Convert BST to Greater Tree.cpp */,
 				F2BD406E222283220048E5E8 /* Invert Binary Tree.cpp */,
 				F2BD406F222283220048E5E8 /* Merge Two Binary Trees.cpp */,
@@ -602,11 +602,11 @@
 		F2BD407A222283220048E5E8 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				F2BD407F222283220048E5E8 /* Sum of Two Integers.cpp */,
 				F2BD407B222283220048E5E8 /* Reverse Bits.cpp */,
 				F2BD407C222283220048E5E8 /* Hamming Distance.cpp */,
 				F2BD407D222283220048E5E8 /* Number of 1 Bits.cpp */,
 				F2BD407E222283220048E5E8 /* Single Number.cpp */,
-				F2BD407F222283220048E5E8 /* Sum of Two Integers.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -741,9 +741,9 @@
 				F2BD408A222283230048E5E8 /* Intersection of Two Arrays.cpp in Sources */,
 				F2BD4086222283230048E5E8 /* Find All Anagrams in a String.cpp in Sources */,
 				F2BD409F222283230048E5E8 /* Min Stack.cpp in Sources */,
+				F2BD40CB22229F1F0048E5E8 /* Plus One.cpp in Sources */,
 				F2BD40B3222283230048E5E8 /* Delete Node in a Linked List.cpp in Sources */,
 				F2BD4089222283230048E5E8 /* Contains Duplicate.cpp in Sources */,
-				F2BD4098222283230048E5E8 /* Plus One.cpp in Sources */,
 				F2BD40A1222283230048E5E8 /* Fizz Buzz.cpp in Sources */,
 				F2BD408B222283230048E5E8 /* Pascal's Triangle.cpp in Sources */,
 				F2BD409B222283230048E5E8 /* Shortest Unsorted Continuous Subarray.cpp in Sources */,
