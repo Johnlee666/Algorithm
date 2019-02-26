@@ -78,6 +78,9 @@
 		F2BD40C7222283230048E5E8 /* Counting Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD4082222283220048E5E8 /* Counting Bits.cpp */; };
 		F2BD40C92222835F0048E5E8 /* Add Binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD40C82222835F0048E5E8 /* Add Binary.cpp */; };
 		F2BD40CB22229F1F0048E5E8 /* Plus One.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD40CA22229F1F0048E5E8 /* Plus One.cpp */; };
+		F2BD40D0222450E90048E5E8 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD40CF222450E80048E5E8 /* QuickSort.cpp */; };
+		F2BD40D2222548390048E5E8 /* Binary Tree Level Order Traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD40D1222548390048E5E8 /* Binary Tree Level Order Traversal.cpp */; };
+		F2BD40D42225685C0048E5E8 /* Binary Tree Level Order Traversal II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD40D32225685C0048E5E8 /* Binary Tree Level Order Traversal II.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -166,6 +169,9 @@
 		F2BD4082222283220048E5E8 /* Counting Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Counting Bits.cpp"; sourceTree = "<group>"; };
 		F2BD40C82222835F0048E5E8 /* Add Binary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Add Binary.cpp"; sourceTree = "<group>"; };
 		F2BD40CA22229F1F0048E5E8 /* Plus One.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Plus One.cpp"; sourceTree = "<group>"; };
+		F2BD40CF222450E80048E5E8 /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		F2BD40D1222548390048E5E8 /* Binary Tree Level Order Traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Binary Tree Level Order Traversal.cpp"; sourceTree = "<group>"; };
+		F2BD40D32225685C0048E5E8 /* Binary Tree Level Order Traversal II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Binary Tree Level Order Traversal II.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				F27A031A22196E320054F77C /* Header.h */,
+				F2BD40CE222450CE0048E5E8 /* Sort */,
 				F2BD4032222283210048E5E8 /* Array */,
 				F2BD4079222283220048E5E8 /* Bit Manipulation */,
 				F2BD4075222283220048E5E8 /* Divide and Conquer */,
@@ -529,6 +536,7 @@
 			isa = PBXGroup;
 			children = (
 				F2BD4067222283220048E5E8 /* Subtree of Another Tree.cpp */,
+				F2BD40D32225685C0048E5E8 /* Binary Tree Level Order Traversal II.cpp */,
 				F2BD4068222283220048E5E8 /* Same Tree.cpp */,
 				F2BD406A222283220048E5E8 /* Symmetric Tree.cpp */,
 				F2BD406B222283220048E5E8 /* Two Sum IV - Input is a BST.cpp */,
@@ -554,6 +562,7 @@
 			children = (
 				F2BD4073222283220048E5E8 /* Binary Tree Inorder Traversal.cpp */,
 				F2BD4074222283220048E5E8 /* Flatten Binary Tree to Linked List.cpp */,
+				F2BD40D1222548390048E5E8 /* Binary Tree Level Order Traversal.cpp */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -626,6 +635,14 @@
 			path = Medium;
 			sourceTree = "<group>";
 		};
+		F2BD40CE222450CE0048E5E8 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD40CF222450E80048E5E8 /* QuickSort.cpp */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -690,6 +707,7 @@
 				F2BD40A0222283230048E5E8 /* Valid Parentheses.cpp in Sources */,
 				F2BD40C5222283230048E5E8 /* Single Number.cpp in Sources */,
 				F2BD40AF222283230048E5E8 /* Merge Two Sorted Lists.cpp in Sources */,
+				F2BD40D42225685C0048E5E8 /* Binary Tree Level Order Traversal II.cpp in Sources */,
 				F2BD4087222283230048E5E8 /* First Unique Character in a String.cpp in Sources */,
 				F2BD40AC222283230048E5E8 /* Longest Substring Without Repeating Characters.cpp in Sources */,
 				F2BD408E222283230048E5E8 /* Two Sum.cpp in Sources */,
@@ -725,6 +743,7 @@
 				F2BD40B1222283230048E5E8 /* Palindrome Linked List.cpp in Sources */,
 				F2BD40A4222283230048E5E8 /* CountAndSay.cpp in Sources */,
 				F2BD4084222283230048E5E8 /* Jewels and Stones.cpp in Sources */,
+				F2BD40D0222450E90048E5E8 /* QuickSort.cpp in Sources */,
 				F2BD40AE222283230048E5E8 /* Remove Linked List Elements.cpp in Sources */,
 				F2BD40B7222283230048E5E8 /* Same Tree.cpp in Sources */,
 				F2BD40C92222835F0048E5E8 /* Add Binary.cpp in Sources */,
@@ -751,6 +770,7 @@
 				F2BD40B9222283230048E5E8 /* Symmetric Tree.cpp in Sources */,
 				F2BD40A9222283230048E5E8 /* Longest Common Prefix.cpp in Sources */,
 				F2BD40BA222283230048E5E8 /* Two Sum IV - Input is a BST.cpp in Sources */,
+				F2BD40D2222548390048E5E8 /* Binary Tree Level Order Traversal.cpp in Sources */,
 				F2BD40C6222283230048E5E8 /* Sum of Two Integers.cpp in Sources */,
 				F2BD40B5222283230048E5E8 /* Linked List Cycle II.cpp in Sources */,
 			);

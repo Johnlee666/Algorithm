@@ -8,9 +8,18 @@
 
 #include <stdio.h>
 #include "Header.h"
-//class Solution {
-//public:
-//    int diameterOfBinaryTree(TreeNode* root) {
-//
-//    }
-//};
+class Solution {
+public:
+    int diameterOfBinaryTree(TreeNode* root) {
+        int res = 0;
+        if (root) {
+            res = treeLength(root->left)+treeLength(root->right);
+            return max({diameterOfBinaryTree(root->left),diameterOfBinaryTree(root->right),res});
+        }
+        return res;
+    }
+    int treeLength(TreeNode *root){
+        if (!root) return 0;
+        return max(treeLength(root->left), treeLength(root->right))+1;
+    }
+};
