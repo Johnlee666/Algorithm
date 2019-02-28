@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F25A37E2221561E000E24058 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F25A37E1221561E000E24058 /* main.cpp */; };
+		F283D4F822280EB100074218 /* Fibonacci Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4F722280EB100074218 /* Fibonacci Number.cpp */; };
+		F283D5002228166800074218 /* Best Time to Buy and Sell Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4FC2228166800074218 /* Best Time to Buy and Sell Stock.cpp */; };
+		F283D5012228166800074218 /* Min Cost Climbing Stairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4FD2228166800074218 /* Min Cost Climbing Stairs.cpp */; };
+		F283D5022228166800074218 /* Climbing Stairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4FE2228166800074218 /* Climbing Stairs.cpp */; };
+		F283D5032228166800074218 /* House Robber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4FF2228166800074218 /* House Robber.cpp */; };
 		F2BD4083222283230048E5E8 /* Find the Difference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD4014222283210048E5E8 /* Find the Difference.cpp */; };
 		F2BD4084222283230048E5E8 /* Jewels and Stones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD4015222283210048E5E8 /* Jewels and Stones.cpp */; };
 		F2BD4085222283230048E5E8 /* Intersection of Two Arrays II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BD4016222283210048E5E8 /* Intersection of Two Arrays II.cpp */; };
@@ -99,6 +104,11 @@
 		F25A37DE221561E000E24058 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25A37E1221561E000E24058 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F27A031A22196E320054F77C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F283D4F722280EB100074218 /* Fibonacci Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Fibonacci Number.cpp"; sourceTree = "<group>"; };
+		F283D4FC2228166800074218 /* Best Time to Buy and Sell Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Best Time to Buy and Sell Stock.cpp"; sourceTree = "<group>"; };
+		F283D4FD2228166800074218 /* Min Cost Climbing Stairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Min Cost Climbing Stairs.cpp"; sourceTree = "<group>"; };
+		F283D4FE2228166800074218 /* Climbing Stairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Climbing Stairs.cpp"; sourceTree = "<group>"; };
+		F283D4FF2228166800074218 /* House Robber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "House Robber.cpp"; sourceTree = "<group>"; };
 		F2BD4014222283210048E5E8 /* Find the Difference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Find the Difference.cpp"; sourceTree = "<group>"; };
 		F2BD4015222283210048E5E8 /* Jewels and Stones.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Jewels and Stones.cpp"; sourceTree = "<group>"; };
 		F2BD4016222283210048E5E8 /* Intersection of Two Arrays II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Intersection of Two Arrays II.cpp"; sourceTree = "<group>"; };
@@ -222,6 +232,17 @@
 			path = Algorithm;
 			sourceTree = "<group>";
 		};
+		F283D4FB2228166800074218 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				F283D4FC2228166800074218 /* Best Time to Buy and Sell Stock.cpp */,
+				F283D4FD2228166800074218 /* Min Cost Climbing Stairs.cpp */,
+				F283D4FE2228166800074218 /* Climbing Stairs.cpp */,
+				F283D4FF2228166800074218 /* House Robber.cpp */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 		F2BD4012222283210048E5E8 /* Hash Table */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,32 +329,9 @@
 		F2BD402E222283210048E5E8 /* Dynamic Programming */ = {
 			isa = PBXGroup;
 			children = (
-				F2BD402F222283210048E5E8 /* Easy */,
-				F2BD4030222283210048E5E8 /* Hard */,
-				F2BD4031222283210048E5E8 /* Medium */,
+				F283D4FB2228166800074218 /* Easy */,
 			);
 			path = "Dynamic Programming";
-			sourceTree = "<group>";
-		};
-		F2BD402F222283210048E5E8 /* Easy */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Easy;
-			sourceTree = "<group>";
-		};
-		F2BD4030222283210048E5E8 /* Hard */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Hard;
-			sourceTree = "<group>";
-		};
-		F2BD4031222283210048E5E8 /* Medium */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Medium;
 			sourceTree = "<group>";
 		};
 		F2BD4032222283210048E5E8 /* Array */ = {
@@ -356,6 +354,7 @@
 				F2BD4037222283210048E5E8 /* Rotate Array.cpp */,
 				F2BD4039222283210048E5E8 /* Remove Duplicates from Sorted Array.cpp */,
 				F2BD403A222283210048E5E8 /* Move Zeroes.cpp */,
+				F283D4F722280EB100074218 /* Fibonacci Number.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -712,6 +711,7 @@
 				F2BD40AC222283230048E5E8 /* Longest Substring Without Repeating Characters.cpp in Sources */,
 				F2BD408E222283230048E5E8 /* Two Sum.cpp in Sources */,
 				F2BD40C2222283230048E5E8 /* Reverse Bits.cpp in Sources */,
+				F283D5032228166800074218 /* House Robber.cpp in Sources */,
 				F2BD40C7222283230048E5E8 /* Counting Bits.cpp in Sources */,
 				F2BD40C3222283230048E5E8 /* Hamming Distance.cpp in Sources */,
 				F2BD4083222283230048E5E8 /* Find the Difference.cpp in Sources */,
@@ -730,11 +730,13 @@
 				F2BD40C4222283230048E5E8 /* Number of 1 Bits.cpp in Sources */,
 				F2BD408D222283230048E5E8 /* Count Primes.cpp in Sources */,
 				F2BD40AB222283230048E5E8 /* Integer to Roman.cpp in Sources */,
+				F283D5002228166800074218 /* Best Time to Buy and Sell Stock.cpp in Sources */,
 				F2BD408F222283230048E5E8 /* Missing Number.cpp in Sources */,
 				F2BD40A3222283230048E5E8 /* Repeated Substring Pattern.cpp in Sources */,
 				F2BD4095222283230048E5E8 /* Ugly Number.cpp in Sources */,
 				F2BD40A8222283230048E5E8 /* Valid Palindrome.cpp in Sources */,
 				F2BD4088222283230048E5E8 /* Valid Anagram.cpp in Sources */,
+				F283D5012228166800074218 /* Min Cost Climbing Stairs.cpp in Sources */,
 				F2BD40B6222283230048E5E8 /* Subtree of Another Tree.cpp in Sources */,
 				F2BD40C1222283230048E5E8 /* Flatten Binary Tree to Linked List.cpp in Sources */,
 				F2BD40B8222283230048E5E8 /* Maximum Depth of Binary Tree.cpp in Sources */,
@@ -750,6 +752,7 @@
 				F2BD4099222283230048E5E8 /* Merge Sorted Array.cpp in Sources */,
 				F2BD409A222283230048E5E8 /* Rotate Array.cpp in Sources */,
 				F2BD40BC222283230048E5E8 /* Convert BST to Greater Tree.cpp in Sources */,
+				F283D4F822280EB100074218 /* Fibonacci Number.cpp in Sources */,
 				F2BD40A5222283230048E5E8 /* Reverse String.cpp in Sources */,
 				F2BD40BD222283230048E5E8 /* Invert Binary Tree.cpp in Sources */,
 				F2BD409D222283230048E5E8 /* Move Zeroes.cpp in Sources */,
@@ -773,6 +776,7 @@
 				F2BD40D2222548390048E5E8 /* Binary Tree Level Order Traversal.cpp in Sources */,
 				F2BD40C6222283230048E5E8 /* Sum of Two Integers.cpp in Sources */,
 				F2BD40B5222283230048E5E8 /* Linked List Cycle II.cpp in Sources */,
+				F283D5022228166800074218 /* Climbing Stairs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
