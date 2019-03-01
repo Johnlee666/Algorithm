@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F25A37E2221561E000E24058 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F25A37E1221561E000E24058 /* main.cpp */; };
+		F271D0A022298478005606F5 /* Convert Sorted Array to Binary Search Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D09F22298478005606F5 /* Convert Sorted Array to Binary Search Tree.cpp */; };
 		F283D4F822280EB100074218 /* Fibonacci Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4F722280EB100074218 /* Fibonacci Number.cpp */; };
 		F283D5002228166800074218 /* Best Time to Buy and Sell Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4FC2228166800074218 /* Best Time to Buy and Sell Stock.cpp */; };
 		F283D5012228166800074218 /* Min Cost Climbing Stairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4FD2228166800074218 /* Min Cost Climbing Stairs.cpp */; };
@@ -103,6 +104,7 @@
 /* Begin PBXFileReference section */
 		F25A37DE221561E000E24058 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25A37E1221561E000E24058 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F271D09F22298478005606F5 /* Convert Sorted Array to Binary Search Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Convert Sorted Array to Binary Search Tree.cpp"; sourceTree = "<group>"; };
 		F27A031A22196E320054F77C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		F283D4F722280EB100074218 /* Fibonacci Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Fibonacci Number.cpp"; sourceTree = "<group>"; };
 		F283D4FC2228166800074218 /* Best Time to Buy and Sell Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Best Time to Buy and Sell Stock.cpp"; sourceTree = "<group>"; };
@@ -535,6 +537,7 @@
 			isa = PBXGroup;
 			children = (
 				F2BD4067222283220048E5E8 /* Subtree of Another Tree.cpp */,
+				F271D09F22298478005606F5 /* Convert Sorted Array to Binary Search Tree.cpp */,
 				F2BD40D32225685C0048E5E8 /* Binary Tree Level Order Traversal II.cpp */,
 				F2BD4068222283220048E5E8 /* Same Tree.cpp */,
 				F2BD406A222283220048E5E8 /* Symmetric Tree.cpp */,
@@ -760,6 +763,7 @@
 				F2BD4094222283230048E5E8 /* Excel Sheet Column Number.cpp in Sources */,
 				F2BD40A6222283230048E5E8 /* Implement strStr().cpp in Sources */,
 				F2BD40B2222283230048E5E8 /* Reverse Linked List.cpp in Sources */,
+				F271D0A022298478005606F5 /* Convert Sorted Array to Binary Search Tree.cpp in Sources */,
 				F2BD408A222283230048E5E8 /* Intersection of Two Arrays.cpp in Sources */,
 				F2BD4086222283230048E5E8 /* Find All Anagrams in a String.cpp in Sources */,
 				F2BD409F222283230048E5E8 /* Min Stack.cpp in Sources */,
