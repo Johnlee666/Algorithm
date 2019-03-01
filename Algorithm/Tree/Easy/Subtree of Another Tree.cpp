@@ -29,7 +29,7 @@
 //    }
 //};
 
-By Comparison of Nodes
+//By Comparison of Nodes
 class Solution {
 public:
     bool isSubtree(TreeNode* s, TreeNode* t) {

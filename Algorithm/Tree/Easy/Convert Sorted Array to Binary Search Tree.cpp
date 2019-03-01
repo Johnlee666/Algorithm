@@ -11,7 +11,7 @@
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
-        return createBST(nums, 0, nums.size()-1);
+        return createBST(nums, 0, (int)nums.size()-1);
     }
     TreeNode *createBST(vector<int>& nums, int l, int r) {
         if (l <= r) {
