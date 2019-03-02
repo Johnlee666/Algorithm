@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F25A37E2221561E000E24058 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F25A37E1221561E000E24058 /* main.cpp */; };
 		F271D0A022298478005606F5 /* Convert Sorted Array to Binary Search Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D09F22298478005606F5 /* Convert Sorted Array to Binary Search Tree.cpp */; };
+		F271D0A2222AD5EB005606F5 /* To Lower Case.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D0A1222AD5EB005606F5 /* To Lower Case.cpp */; };
 		F283D4F822280EB100074218 /* Fibonacci Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4F722280EB100074218 /* Fibonacci Number.cpp */; };
 		F283D5002228166800074218 /* Best Time to Buy and Sell Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4FC2228166800074218 /* Best Time to Buy and Sell Stock.cpp */; };
 		F283D5012228166800074218 /* Min Cost Climbing Stairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4FD2228166800074218 /* Min Cost Climbing Stairs.cpp */; };
@@ -105,6 +106,7 @@
 		F25A37DE221561E000E24058 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25A37E1221561E000E24058 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F271D09F22298478005606F5 /* Convert Sorted Array to Binary Search Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Convert Sorted Array to Binary Search Tree.cpp"; sourceTree = "<group>"; };
+		F271D0A1222AD5EB005606F5 /* To Lower Case.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "To Lower Case.cpp"; sourceTree = "<group>"; };
 		F27A031A22196E320054F77C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		F283D4F722280EB100074218 /* Fibonacci Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Fibonacci Number.cpp"; sourceTree = "<group>"; };
 		F283D4FC2228166800074218 /* Best Time to Buy and Sell Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Best Time to Buy and Sell Stock.cpp"; sourceTree = "<group>"; };
@@ -431,6 +433,7 @@
 				F2BD404A222283220048E5E8 /* Reverse String.cpp */,
 				F2BD404D222283220048E5E8 /* Valid Palindrome.cpp */,
 				F2BD404E222283220048E5E8 /* Longest Common Prefix.cpp */,
+				F271D0A1222AD5EB005606F5 /* To Lower Case.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -707,6 +710,7 @@
 				F2BD40C0222283230048E5E8 /* Binary Tree Inorder Traversal.cpp in Sources */,
 				F2BD40B0222283230048E5E8 /* Linked List Cycle.cpp in Sources */,
 				F2BD40A0222283230048E5E8 /* Valid Parentheses.cpp in Sources */,
+				F271D0A2222AD5EB005606F5 /* To Lower Case.cpp in Sources */,
 				F2BD40C5222283230048E5E8 /* Single Number.cpp in Sources */,
 				F2BD40AF222283230048E5E8 /* Merge Two Sorted Lists.cpp in Sources */,
 				F2BD40D42225685C0048E5E8 /* Binary Tree Level Order Traversal II.cpp in Sources */,
