@@ -1,8 +1,8 @@
 //
-//  Remove Linked List Elements.cpp
+//  Remove Duplicates from Sorted List.cpp
 //  Algorithm
 //
-//  Created by 李展 on 2019/2/24.
+//  Created by 李展 on 2019/3/4.
 //  Copyright © 2019 JohnLee. All rights reserved.
 //
 
@@ -10,19 +10,14 @@
 #include "Header.h"
 class Solution {
 public:
-    ListNode* removeElements(ListNode* head, int val) {
-        while (head && head->val == val) {
-            ListNode *temp = head;
-            head = head->next;
-            delete temp;
-        }
+    ListNode* deleteDuplicates(ListNode* head) {
         if (!head) {
             return nullptr;
         }
         ListNode *prev = head;
         ListNode *cur = head->next;
         while (cur) {
-            if (cur->val == val) {
+            if (cur->val == prev->val) {
                 ListNode *temp = cur;
                 cur = cur->next;
                 prev->next = cur;
