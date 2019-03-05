@@ -15,6 +15,11 @@
 		F271D0AA222D4BEB005606F5 /* Remove Duplicates from Sorted List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D0A9222D4BEB005606F5 /* Remove Duplicates from Sorted List.cpp */; };
 		F271D0AC222D5088005606F5 /* Design Linked List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D0AB222D5088005606F5 /* Design Linked List.cpp */; };
 		F271D0AE222D5F6E005606F5 /* Range Sum Query - Immutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D0AD222D5F6E005606F5 /* Range Sum Query - Immutable.cpp */; };
+		F271D0B0222E5CEE005606F5 /* Implement Stack using Queues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D0AF222E5CEE005606F5 /* Implement Stack using Queues.cpp */; };
+		F271D0B2222E5E62005606F5 /* Baseball Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D0B1222E5E62005606F5 /* Baseball Game.cpp */; };
+		F271D0B4222E5E77005606F5 /* Next Greater Element I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D0B3222E5E77005606F5 /* Next Greater Element I.cpp */; };
+		F271D0B6222E5E89005606F5 /* Backspace String Compare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D0B5222E5E89005606F5 /* Backspace String Compare.cpp */; };
+		F271D0B8222E5EA7005606F5 /* Implement Queue using Stacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D0B7222E5EA7005606F5 /* Implement Queue using Stacks.cpp */; };
 		F283D4F822280EB100074218 /* Fibonacci Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4F722280EB100074218 /* Fibonacci Number.cpp */; };
 		F283D5002228166800074218 /* Best Time to Buy and Sell Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4FC2228166800074218 /* Best Time to Buy and Sell Stock.cpp */; };
 		F283D5012228166800074218 /* Min Cost Climbing Stairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F283D4FD2228166800074218 /* Min Cost Climbing Stairs.cpp */; };
@@ -117,6 +122,11 @@
 		F271D0A9222D4BEB005606F5 /* Remove Duplicates from Sorted List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove Duplicates from Sorted List.cpp"; sourceTree = "<group>"; };
 		F271D0AB222D5088005606F5 /* Design Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Design Linked List.cpp"; sourceTree = "<group>"; };
 		F271D0AD222D5F6E005606F5 /* Range Sum Query - Immutable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Range Sum Query - Immutable.cpp"; sourceTree = "<group>"; };
+		F271D0AF222E5CEE005606F5 /* Implement Stack using Queues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Implement Stack using Queues.cpp"; sourceTree = "<group>"; };
+		F271D0B1222E5E62005606F5 /* Baseball Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Baseball Game.cpp"; sourceTree = "<group>"; };
+		F271D0B3222E5E77005606F5 /* Next Greater Element I.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Next Greater Element I.cpp"; sourceTree = "<group>"; };
+		F271D0B5222E5E89005606F5 /* Backspace String Compare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Backspace String Compare.cpp"; sourceTree = "<group>"; };
+		F271D0B7222E5EA7005606F5 /* Implement Queue using Stacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Implement Queue using Stacks.cpp"; sourceTree = "<group>"; };
 		F27A031A22196E320054F77C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		F283D4F722280EB100074218 /* Fibonacci Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Fibonacci Number.cpp"; sourceTree = "<group>"; };
 		F283D4FC2228166800074218 /* Best Time to Buy and Sell Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Best Time to Buy and Sell Stock.cpp"; sourceTree = "<group>"; };
@@ -405,6 +415,11 @@
 			children = (
 				F2BD4040222283220048E5E8 /* Min Stack.cpp */,
 				F2BD4041222283220048E5E8 /* Valid Parentheses.cpp */,
+				F271D0AF222E5CEE005606F5 /* Implement Stack using Queues.cpp */,
+				F271D0B1222E5E62005606F5 /* Baseball Game.cpp */,
+				F271D0B3222E5E77005606F5 /* Next Greater Element I.cpp */,
+				F271D0B5222E5E89005606F5 /* Backspace String Compare.cpp */,
+				F271D0B7222E5EA7005606F5 /* Implement Queue using Stacks.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -733,6 +748,7 @@
 				F2BD40AC222283230048E5E8 /* Longest Substring Without Repeating Characters.cpp in Sources */,
 				F2BD408E222283230048E5E8 /* Two Sum.cpp in Sources */,
 				F2BD40C2222283230048E5E8 /* Reverse Bits.cpp in Sources */,
+				F271D0B4222E5E77005606F5 /* Next Greater Element I.cpp in Sources */,
 				F283D5032228166800074218 /* House Robber.cpp in Sources */,
 				F2BD40C7222283230048E5E8 /* Counting Bits.cpp in Sources */,
 				F2BD40C3222283230048E5E8 /* Hamming Distance.cpp in Sources */,
@@ -744,7 +760,9 @@
 				F271D0AC222D5088005606F5 /* Design Linked List.cpp in Sources */,
 				F2BD409C222283230048E5E8 /* Remove Duplicates from Sorted Array.cpp in Sources */,
 				F2BD40B4222283230048E5E8 /* Add Two Numbers.cpp in Sources */,
+				F271D0B6222E5E89005606F5 /* Backspace String Compare.cpp in Sources */,
 				F2BD4096222283230048E5E8 /* Factorial Trailing Zeroes.cpp in Sources */,
+				F271D0B2222E5E62005606F5 /* Baseball Game.cpp in Sources */,
 				F2BD40AA222283230048E5E8 /* Multiply Strings.cpp in Sources */,
 				F2BD4097222283230048E5E8 /* Find All Numbers Disappeared in an Array.cpp in Sources */,
 				F2BD4093222283230048E5E8 /* Power of Three.cpp in Sources */,
@@ -788,8 +806,10 @@
 				F2BD40B2222283230048E5E8 /* Reverse Linked List.cpp in Sources */,
 				F271D0A022298478005606F5 /* Convert Sorted Array to Binary Search Tree.cpp in Sources */,
 				F271D0A8222D4B8C005606F5 /* Middle of the Linked List.cpp in Sources */,
+				F271D0B0222E5CEE005606F5 /* Implement Stack using Queues.cpp in Sources */,
 				F2BD408A222283230048E5E8 /* Intersection of Two Arrays.cpp in Sources */,
 				F2BD4086222283230048E5E8 /* Find All Anagrams in a String.cpp in Sources */,
+				F271D0B8222E5EA7005606F5 /* Implement Queue using Stacks.cpp in Sources */,
 				F2BD409F222283230048E5E8 /* Min Stack.cpp in Sources */,
 				F2BD40CB22229F1F0048E5E8 /* Plus One.cpp in Sources */,
 				F2BD40B3222283230048E5E8 /* Delete Node in a Linked List.cpp in Sources */,
