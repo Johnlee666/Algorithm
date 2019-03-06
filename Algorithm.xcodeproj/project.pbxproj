@@ -415,10 +415,10 @@
 			children = (
 				F2BD4040222283220048E5E8 /* Min Stack.cpp */,
 				F2BD4041222283220048E5E8 /* Valid Parentheses.cpp */,
-				F271D0AF222E5CEE005606F5 /* Implement Stack using Queues.cpp */,
 				F271D0B1222E5E62005606F5 /* Baseball Game.cpp */,
 				F271D0B3222E5E77005606F5 /* Next Greater Element I.cpp */,
 				F271D0B5222E5E89005606F5 /* Backspace String Compare.cpp */,
+				F271D0AF222E5CEE005606F5 /* Implement Stack using Queues.cpp */,
 				F271D0B7222E5EA7005606F5 /* Implement Queue using Stacks.cpp */,
 			);
 			path = Easy;
