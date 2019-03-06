@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  Algorithm
+//
+//  Created by 李展 on 2019/3/6.
+//  Copyright © 2019 JohnLee. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#include <string>
+#include <algorithm>
+#include <vector>
+#include <stack>
+#include <queue>
+#include <unordered_map>
+#include <unordered_set>
+#include <set>
+#include <map>
+#include <stdint.h>
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
+
+using namespace std;
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
