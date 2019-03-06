@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include "Header.h"
 class MinStack {
 private:
     stack<int> minStack;

@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include "Header.h"
 class Solution {
 public:
     int partition(vector<int>& nums, int left, int right) {

@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include "Header.h"
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {

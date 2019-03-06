@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include "Header.h"
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {

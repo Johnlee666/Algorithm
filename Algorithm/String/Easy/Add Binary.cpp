@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include "Header.h"
 class Solution {
 public:
     string addBinary(string a, string b) {

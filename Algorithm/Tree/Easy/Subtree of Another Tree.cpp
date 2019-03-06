@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include "Header.h"
 
 //Using Preorder Traversal
 //class Solution {

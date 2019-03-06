@@ -127,7 +127,7 @@
 		F271D0B3222E5E77005606F5 /* Next Greater Element I.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Next Greater Element I.cpp"; sourceTree = "<group>"; };
 		F271D0B5222E5E89005606F5 /* Backspace String Compare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Backspace String Compare.cpp"; sourceTree = "<group>"; };
 		F271D0B7222E5EA7005606F5 /* Implement Queue using Stacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Implement Queue using Stacks.cpp"; sourceTree = "<group>"; };
-		F27A031A22196E320054F77C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F271D0B9222FF5CA005606F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F283D4F722280EB100074218 /* Fibonacci Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Fibonacci Number.cpp"; sourceTree = "<group>"; };
 		F283D4FC2228166800074218 /* Best Time to Buy and Sell Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Best Time to Buy and Sell Stock.cpp"; sourceTree = "<group>"; };
 		F283D4FD2228166800074218 /* Min Cost Climbing Stairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Min Cost Climbing Stairs.cpp"; sourceTree = "<group>"; };
@@ -238,7 +238,6 @@
 		F25A37E0221561E000E24058 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				F27A031A22196E320054F77C /* Header.h */,
 				F2BD40CE222450CE0048E5E8 /* Sort */,
 				F2BD4032222283210048E5E8 /* Array */,
 				F2BD4079222283220048E5E8 /* Bit Manipulation */,
@@ -252,6 +251,7 @@
 				F2BD4044222283220048E5E8 /* String */,
 				F2BD4065222283220048E5E8 /* Tree */,
 				F25A37E1221561E000E24058 /* main.cpp */,
+				F271D0B9222FF5CA005606F5 /* PrefixHeader.pch */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -947,6 +947,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGRNKP3327;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Algorithm/PrefixHeader.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -956,6 +958,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGRNKP3327;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Algorithm/PrefixHeader.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

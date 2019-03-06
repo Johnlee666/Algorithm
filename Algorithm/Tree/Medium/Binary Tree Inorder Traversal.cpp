@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include "Header.h"
 //recursion
 
 //class Solution {

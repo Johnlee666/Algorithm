@@ -8,7 +8,6 @@
 //
 
 #include <stdio.h>
-#include "Header.h"
 class NumArray {
 private:
     vector<int> sums;

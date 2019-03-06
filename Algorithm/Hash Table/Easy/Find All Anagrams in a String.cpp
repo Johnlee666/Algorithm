@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include "Header.h"
 // Brute Force
 class Solution {
 public:

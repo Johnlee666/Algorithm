@@ -7,7 +7,6 @@
 //
 
 #include <stdio.h>
-#include "Header.h"
 class MyQueue {
 private:
     stack<int> s1;
