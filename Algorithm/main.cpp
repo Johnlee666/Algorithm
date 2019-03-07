@@ -7,11 +7,7 @@
 //
 
 #include <iostream>
-#include "Stack/Easy/Baseball Game.cpp"
 int main(int argc, const char * argv[]) {
     // insert code here...
-    Solution s;
-    vector<string> str = {"5","2","C","D","+"};
-    s.calPoints(str);
     return 0;
 }

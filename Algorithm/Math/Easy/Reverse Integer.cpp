@@ -8,32 +8,52 @@
 
 #include <stdio.h>
 using namespace std;
+//class Solution {
+//public:
+//    int reverse(int x) {
+//        int flag = 0;
+//        if (x < 0) {
+//            if (-x > __INT_MAX__) {
+//                return 0;
+//            }
+//            x = -x;
+//            flag = 1;
+//        } else {
+//            flag = 0;
+//        }
+//        long long res = 0;
+//        while (x > 0) {
+//            long long temp = (x % 10) + res*10;
+//            if (temp > __INT_MAX__) {
+//                res = 0;
+//                break;
+//            }
+//            res = temp;
+//            x = x/10;
+//        }
+//        if (flag) {
+//            res = -res;
+//        }
+//        return (int)res;
+//    }
+//};
+
 class Solution {
 public:
     int reverse(int x) {
-        int flag = 0;
-        if (x < 0) {
-            if (-x > __INT_MAX__) {
+        int rev = 0;
+        while (x != 0) {
+            int pop = x % 10;
+            x /= 10;
+            if (rev > INT_MAX/10 || (rev == INT_MAX/10 && pop > 7)) {
                 return 0;
             }
-            x = -x;
-            flag = 1;
-        } else {
-            flag = 0;
-        }
-        long long res = 0;
-        while (x > 0) {
-            long long temp = (x % 10) + res*10;
-            if (temp > __INT_MAX__) {
-                res = 0;
-                break;
+            if (rev < INT_MIN/10 || (rev == INT_MIN / 10 && pop < -8)) {
+                return 0;
             }
-            res = temp;
-            x = x/10;
+            rev *= 10;
+            rev += pop;
         }
-        if (flag) {
-            res = -res;
-        }
-        return (int)res;
+        return rev;
     }
 };
