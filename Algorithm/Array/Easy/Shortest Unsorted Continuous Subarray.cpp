@@ -7,34 +7,33 @@
 //
 
 #include <stdio.h>
-//Wrong ans
-//class Solution {
-//public:
-//    int findUnsortedSubarray(vector<int>& nums) {
-//        int flag = 0;
-//        int begin = 0,end = 0;
-//        for (int i = 1; i < nums.size(); i++) {
-//            if (nums[i] < nums[i-1]) {
-//                begin = i - 1;
-//                flag = 1;
-//                break;
-//            }
-//        }
-//        if (!flag) {
-//            return 0;
-//        }
-//        for (int i = nums.size()-1; i > 0; i--) {
-//            if (nums[i-1] >= nums[i]) {
-//                end = i;
-//                break;
-//            }
-//        }
-//        if (end != 0) {
-//            return end - begin + 1;
-//        }
-//        return 0;
-//    }
-//};
+class Solution {
+public:
+    int findUnsortedSubarray(vector<int>& nums) {
+        int flag = 0;
+        int begin = 0,end = 0;
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] < nums[i-1]) {
+                begin = i - 1;
+                flag = 1;
+                break;
+            }
+        }
+        if (!flag) {
+            return 0;
+        }
+        for (int i = nums.size()-1; i > 0; i--) {
+            if (nums[i-1] >= nums[i]) {
+                end = i;
+                break;
+            }
+        }
+        if (end != 0) {
+            return end - begin + 1;
+        }
+        return 0;
+    }
+};
 
 //sort
 //class Solution {
