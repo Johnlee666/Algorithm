@@ -11,6 +11,7 @@
 		F23D92C02232A6EB00F0B9EC /* Path Sum II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F23D92BF2232A6EB00F0B9EC /* Path Sum II.cpp */; };
 		F23D92C4223415EE00F0B9EC /* Squares of a Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F23D92C3223415EE00F0B9EC /* Squares of a Sorted Array.cpp */; };
 		F23D92C8223417B100F0B9EC /* Sort Array By Parity II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F23D92C7223417B100F0B9EC /* Sort Array By Parity II.cpp */; };
+		F23D92CA223418E700F0B9EC /* Sort Array By Parity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F23D92C9223418E700F0B9EC /* Sort Array By Parity.cpp */; };
 		F25A37E2221561E000E24058 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F25A37E1221561E000E24058 /* main.cpp */; };
 		F271D205222FFBB8005606F5 /* Best Time to Buy and Sell Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D195222FFBB8005606F5 /* Best Time to Buy and Sell Stock.cpp */; };
 		F271D206222FFBB8005606F5 /* Min Cost Climbing Stairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D196222FFBB8005606F5 /* Min Cost Climbing Stairs.cpp */; };
@@ -122,6 +123,7 @@
 		F23D92BF2232A6EB00F0B9EC /* Path Sum II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Path Sum II.cpp"; sourceTree = "<group>"; };
 		F23D92C3223415EE00F0B9EC /* Squares of a Sorted Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Squares of a Sorted Array.cpp"; sourceTree = "<group>"; };
 		F23D92C7223417B100F0B9EC /* Sort Array By Parity II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sort Array By Parity II.cpp"; sourceTree = "<group>"; };
+		F23D92C9223418E700F0B9EC /* Sort Array By Parity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sort Array By Parity.cpp"; sourceTree = "<group>"; };
 		F25A37DE221561E000E24058 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25A37E1221561E000E24058 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F271D0B9222FF5CA005606F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -536,6 +538,7 @@
 				F271D201222FFBB8005606F5 /* Move Zeroes.cpp */,
 				F271D202222FFBB8005606F5 /* Fibonacci Number.cpp */,
 				F23D92C7223417B100F0B9EC /* Sort Array By Parity II.cpp */,
+				F23D92C9223418E700F0B9EC /* Sort Array By Parity.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -652,6 +655,7 @@
 				F271D225222FFBB9005606F5 /* Implement Stack using Queues.cpp in Sources */,
 				F271D255222FFBB9005606F5 /* Counting Bits.cpp in Sources */,
 				F271D20B222FFBB8005606F5 /* Find the Difference.cpp in Sources */,
+				F23D92CA223418E700F0B9EC /* Sort Array By Parity.cpp in Sources */,
 				F271D22D222FFBB9005606F5 /* Two Sum.cpp in Sources */,
 				F271D259222FFBB9005606F5 /* Rotate Array.cpp in Sources */,
 				F271D212222FFBB8005606F5 /* Intersection of Two Arrays.cpp in Sources */,
