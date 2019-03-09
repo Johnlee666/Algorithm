@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F23D92BE2232A69B00F0B9EC /* Path Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F23D92BD2232A69B00F0B9EC /* Path Sum.cpp */; };
 		F23D92C02232A6EB00F0B9EC /* Path Sum II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F23D92BF2232A6EB00F0B9EC /* Path Sum II.cpp */; };
+		F23D92C4223415EE00F0B9EC /* Squares of a Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F23D92C3223415EE00F0B9EC /* Squares of a Sorted Array.cpp */; };
+		F23D92C8223417B100F0B9EC /* Sort Array By Parity II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F23D92C7223417B100F0B9EC /* Sort Array By Parity II.cpp */; };
 		F25A37E2221561E000E24058 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F25A37E1221561E000E24058 /* main.cpp */; };
 		F271D205222FFBB8005606F5 /* Best Time to Buy and Sell Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D195222FFBB8005606F5 /* Best Time to Buy and Sell Stock.cpp */; };
 		F271D206222FFBB8005606F5 /* Min Cost Climbing Stairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D196222FFBB8005606F5 /* Min Cost Climbing Stairs.cpp */; };
@@ -118,6 +120,8 @@
 /* Begin PBXFileReference section */
 		F23D92BD2232A69B00F0B9EC /* Path Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Path Sum.cpp"; sourceTree = "<group>"; };
 		F23D92BF2232A6EB00F0B9EC /* Path Sum II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Path Sum II.cpp"; sourceTree = "<group>"; };
+		F23D92C3223415EE00F0B9EC /* Squares of a Sorted Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Squares of a Sorted Array.cpp"; sourceTree = "<group>"; };
+		F23D92C7223417B100F0B9EC /* Sort Array By Parity II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sort Array By Parity II.cpp"; sourceTree = "<group>"; };
 		F25A37DE221561E000E24058 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25A37E1221561E000E24058 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F271D0B9222FF5CA005606F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -225,6 +229,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F23D92C1223415CB00F0B9EC /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				F23D92C3223415EE00F0B9EC /* Squares of a Sorted Array.cpp */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 		F25A37D5221561E000E24058 = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +319,7 @@
 		F271D1A5222FFBB8005606F5 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
+				F23D92C1223415CB00F0B9EC /* Easy */,
 				F271D1A6222FFBB8005606F5 /* QuickSort.cpp */,
 			);
 			path = Sort;
@@ -326,17 +339,17 @@
 			children = (
 				F271D1A9222FFBB8005606F5 /* Subtree of Another Tree.cpp */,
 				F271D1AA222FFBB8005606F5 /* Same Tree.cpp */,
+				F271D1AD222FFBB8005606F5 /* Symmetric Tree.cpp */,
 				F271D1AB222FFBB8005606F5 /* Maximum Depth of Binary Tree.cpp */,
 				F271D1AC222FFBB8005606F5 /* Convert Sorted Array to Binary Search Tree.cpp */,
-				F271D1AD222FFBB8005606F5 /* Symmetric Tree.cpp */,
 				F271D1AE222FFBB8005606F5 /* Two Sum IV - Input is a BST.cpp */,
 				F23D92BD2232A69B00F0B9EC /* Path Sum.cpp */,
 				F271D1AF222FFBB8005606F5 /* Path Sum III.cpp */,
 				F271D1B0222FFBB8005606F5 /* Convert BST to Greater Tree.cpp */,
-				F271D1B1222FFBB8005606F5 /* Binary Tree Level Order Traversal II.cpp */,
 				F271D1B2222FFBB8005606F5 /* Invert Binary Tree.cpp */,
 				F271D1B3222FFBB8005606F5 /* Merge Two Binary Trees.cpp */,
 				F271D1B4222FFBB8005606F5 /* Diameter of Binary Tree.cpp */,
+				F271D1B1222FFBB8005606F5 /* Binary Tree Level Order Traversal II.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -522,6 +535,7 @@
 				F271D200222FFBB8005606F5 /* Remove Duplicates from Sorted Array.cpp */,
 				F271D201222FFBB8005606F5 /* Move Zeroes.cpp */,
 				F271D202222FFBB8005606F5 /* Fibonacci Number.cpp */,
+				F23D92C7223417B100F0B9EC /* Sort Array By Parity II.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -648,6 +662,7 @@
 				F271D24A222FFBB9005606F5 /* Add Binary.cpp in Sources */,
 				F23D92BE2232A69B00F0B9EC /* Path Sum.cpp in Sources */,
 				F271D24D222FFBB9005606F5 /* Multiply Strings.cpp in Sources */,
+				F23D92C8223417B100F0B9EC /* Sort Array By Parity II.cpp in Sources */,
 				F271D228222FFBB9005606F5 /* Next Greater Element I.cpp in Sources */,
 				F271D20F222FFBB8005606F5 /* First Unique Character in a String.cpp in Sources */,
 				F271D24B222FFBB9005606F5 /* Valid Palindrome.cpp in Sources */,
@@ -675,6 +690,7 @@
 				F271D216222FFBB8005606F5 /* Maximum Depth of Binary Tree.cpp in Sources */,
 				F271D219222FFBB8005606F5 /* Two Sum IV - Input is a BST.cpp in Sources */,
 				F271D234222FFBB9005606F5 /* Excel Sheet Column Number.cpp in Sources */,
+				F23D92C4223415EE00F0B9EC /* Squares of a Sorted Array.cpp in Sources */,
 				F271D241222FFBB9005606F5 /* Add Two Numbers.cpp in Sources */,
 				F271D25C222FFBB9005606F5 /* Move Zeroes.cpp in Sources */,
 				F271D211222FFBB8005606F5 /* Contains Duplicate.cpp in Sources */,
