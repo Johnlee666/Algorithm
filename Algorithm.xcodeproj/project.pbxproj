@@ -106,6 +106,8 @@
 		F271D26022317417005606F5 /* Majority Element II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D25F22317417005606F5 /* Majority Element II.cpp */; };
 		F2DFF45A2236B51800D5A4F0 /* Univalued Binary Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF4592236B51800D5A4F0 /* Univalued Binary Tree.cpp */; };
 		F2DFF45C2236B90E00D5A4F0 /* Search in a Binary Search Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF45B2236B90E00D5A4F0 /* Search in a Binary Search Tree.cpp */; };
+		F2DFF4622238068400D5A4F0 /* Reverse String II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF4612238068400D5A4F0 /* Reverse String II.cpp */; };
+		F2DFF4642238089300D5A4F0 /* Reverse Words in a String III.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF4632238089300D5A4F0 /* Reverse Words in a String III.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -222,6 +224,8 @@
 		F271D25F22317417005606F5 /* Majority Element II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Majority Element II.cpp"; sourceTree = "<group>"; };
 		F2DFF4592236B51800D5A4F0 /* Univalued Binary Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Univalued Binary Tree.cpp"; sourceTree = "<group>"; };
 		F2DFF45B2236B90E00D5A4F0 /* Search in a Binary Search Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Search in a Binary Search Tree.cpp"; sourceTree = "<group>"; };
+		F2DFF4612238068400D5A4F0 /* Reverse String II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse String II.cpp"; sourceTree = "<group>"; };
+		F2DFF4632238089300D5A4F0 /* Reverse Words in a String III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Words in a String III.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -471,6 +475,8 @@
 			isa = PBXGroup;
 			children = (
 				F271D1E2222FFBB8005606F5 /* Fizz Buzz.cpp */,
+				F2DFF4612238068400D5A4F0 /* Reverse String II.cpp */,
+				F2DFF4632238089300D5A4F0 /* Reverse Words in a String III.cpp */,
 				F271D1E3222FFBB8005606F5 /* Roman to Integer.cpp */,
 				F271D1E4222FFBB8005606F5 /* Repeated Substring Pattern.cpp */,
 				F271D1E5222FFBB8005606F5 /* CountAndSay.cpp */,
@@ -629,6 +635,7 @@
 				F271D213222FFBB8005606F5 /* QuickSort.cpp in Sources */,
 				F271D237222FFBB9005606F5 /* Intersection of Two Linked Lists.cpp in Sources */,
 				F271D248222FFBB9005606F5 /* Implement strStr().cpp in Sources */,
+				F2DFF4642238089300D5A4F0 /* Reverse Words in a String III.cpp in Sources */,
 				F271D223222FFBB8005606F5 /* Backspace String Compare.cpp in Sources */,
 				F271D23A222FFBB9005606F5 /* Merge Two Sorted Lists.cpp in Sources */,
 				F271D206222FFBB8005606F5 /* Min Cost Climbing Stairs.cpp in Sources */,
@@ -677,6 +684,7 @@
 				F271D228222FFBB9005606F5 /* Next Greater Element I.cpp in Sources */,
 				F271D20F222FFBB8005606F5 /* First Unique Character in a String.cpp in Sources */,
 				F271D24B222FFBB9005606F5 /* Valid Palindrome.cpp in Sources */,
+				F2DFF4622238068400D5A4F0 /* Reverse String II.cpp in Sources */,
 				F271D229222FFBB9005606F5 /* Valid Parentheses.cpp in Sources */,
 				F271D226222FFBB9005606F5 /* Implement Queue using Stacks.cpp in Sources */,
 				F271D246222FFBB9005606F5 /* CountAndSay.cpp in Sources */,
