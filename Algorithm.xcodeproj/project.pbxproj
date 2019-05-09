@@ -106,6 +106,11 @@
 		F271D25E222FFBB9005606F5 /* Product of Array Except Self.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D204222FFBB8005606F5 /* Product of Array Except Self.cpp */; };
 		F271D26022317417005606F5 /* Majority Element II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D25F22317417005606F5 /* Majority Element II.cpp */; };
 		F28C4545223D4C8000A07622 /* Find Common Characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F28C4544223D4C8000A07622 /* Find Common Characters.cpp */; };
+		F2A6E14E228067B7000C8071 /* Flipping an Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2A6E14D228067B7000C8071 /* Flipping an Image.cpp */; };
+		F2A6E15022806B2B000C8071 /* Array Partition I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2A6E14F22806B2B000C8071 /* Array Partition I.cpp */; };
+		F2BB0DB12284412E000BC4DC /* Range Sum of BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BB0DB02284412E000BC4DC /* Range Sum of BST.cpp */; };
+		F2BB0DB3228442C4000BC4DC /* Average of Levels in Binary Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BB0DB2228442C4000BC4DC /* Average of Levels in Binary Tree.cpp */; };
+		F2BB0DB52284494A000BC4DC /* Trim a Binary Search Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BB0DB42284494A000BC4DC /* Trim a Binary Search Tree.cpp */; };
 		F2DFF45A2236B51800D5A4F0 /* Univalued Binary Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF4592236B51800D5A4F0 /* Univalued Binary Tree.cpp */; };
 		F2DFF45C2236B90E00D5A4F0 /* Search in a Binary Search Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF45B2236B90E00D5A4F0 /* Search in a Binary Search Tree.cpp */; };
 		F2DFF4622238068400D5A4F0 /* Reverse String II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF4612238068400D5A4F0 /* Reverse String II.cpp */; };
@@ -227,6 +232,11 @@
 		F271D204222FFBB8005606F5 /* Product of Array Except Self.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Product of Array Except Self.cpp"; sourceTree = "<group>"; };
 		F271D25F22317417005606F5 /* Majority Element II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Majority Element II.cpp"; sourceTree = "<group>"; };
 		F28C4544223D4C8000A07622 /* Find Common Characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Find Common Characters.cpp"; sourceTree = "<group>"; };
+		F2A6E14D228067B7000C8071 /* Flipping an Image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Flipping an Image.cpp"; sourceTree = "<group>"; };
+		F2A6E14F22806B2B000C8071 /* Array Partition I.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Partition I.cpp"; sourceTree = "<group>"; };
+		F2BB0DB02284412E000BC4DC /* Range Sum of BST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Range Sum of BST.cpp"; sourceTree = "<group>"; };
+		F2BB0DB2228442C4000BC4DC /* Average of Levels in Binary Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Average of Levels in Binary Tree.cpp"; sourceTree = "<group>"; };
+		F2BB0DB42284494A000BC4DC /* Trim a Binary Search Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Trim a Binary Search Tree.cpp"; sourceTree = "<group>"; };
 		F2DFF4592236B51800D5A4F0 /* Univalued Binary Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Univalued Binary Tree.cpp"; sourceTree = "<group>"; };
 		F2DFF45B2236B90E00D5A4F0 /* Search in a Binary Search Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Search in a Binary Search Tree.cpp"; sourceTree = "<group>"; };
 		F2DFF4612238068400D5A4F0 /* Reverse String II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse String II.cpp"; sourceTree = "<group>"; };
@@ -368,6 +378,9 @@
 				F271D1B1222FFBB8005606F5 /* Binary Tree Level Order Traversal II.cpp */,
 				F2DFF4592236B51800D5A4F0 /* Univalued Binary Tree.cpp */,
 				F2DFF45B2236B90E00D5A4F0 /* Search in a Binary Search Tree.cpp */,
+				F2BB0DB02284412E000BC4DC /* Range Sum of BST.cpp */,
+				F2BB0DB2228442C4000BC4DC /* Average of Levels in Binary Tree.cpp */,
+				F2BB0DB42284494A000BC4DC /* Trim a Binary Search Tree.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -560,6 +573,8 @@
 				F271D202222FFBB8005606F5 /* Fibonacci Number.cpp */,
 				F23D92C7223417B100F0B9EC /* Sort Array By Parity II.cpp */,
 				F23D92C9223418E700F0B9EC /* Sort Array By Parity.cpp */,
+				F2A6E14D228067B7000C8071 /* Flipping an Image.cpp */,
+				F2A6E14F22806B2B000C8071 /* Array Partition I.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -660,6 +675,7 @@
 				F2DFF46D22395B5C00D5A4F0 /* Power of Two.cpp in Sources */,
 				F271D20C222FFBB8005606F5 /* Jewels and Stones.cpp in Sources */,
 				F271D227222FFBB9005606F5 /* Min Stack.cpp in Sources */,
+				F2BB0DB52284494A000BC4DC /* Trim a Binary Search Tree.cpp in Sources */,
 				F271D205222FFBB8005606F5 /* Best Time to Buy and Sell Stock.cpp in Sources */,
 				F271D235222FFBB9005606F5 /* Ugly Number.cpp in Sources */,
 				F271D25E222FFBB9005606F5 /* Product of Array Except Self.cpp in Sources */,
@@ -669,6 +685,7 @@
 				F271D24C222FFBB9005606F5 /* Longest Common Prefix.cpp in Sources */,
 				F271D218222FFBB8005606F5 /* Symmetric Tree.cpp in Sources */,
 				F271D25A222FFBB9005606F5 /* Shortest Unsorted Continuous Subarray.cpp in Sources */,
+				F2BB0DB3228442C4000BC4DC /* Average of Levels in Binary Tree.cpp in Sources */,
 				F271D209222FFBB8005606F5 /* Range Sum Query - Immutable.cpp in Sources */,
 				F271D230222FFBB9005606F5 /* Reverse Integer.cpp in Sources */,
 				F271D20D222FFBB8005606F5 /* Intersection of Two Arrays II.cpp in Sources */,
@@ -692,6 +709,7 @@
 				F23D92BE2232A69B00F0B9EC /* Path Sum.cpp in Sources */,
 				F271D24D222FFBB9005606F5 /* Multiply Strings.cpp in Sources */,
 				F23D92C8223417B100F0B9EC /* Sort Array By Parity II.cpp in Sources */,
+				F2A6E14E228067B7000C8071 /* Flipping an Image.cpp in Sources */,
 				F271D228222FFBB9005606F5 /* Next Greater Element I.cpp in Sources */,
 				F271D20F222FFBB8005606F5 /* First Unique Character in a String.cpp in Sources */,
 				F271D24B222FFBB9005606F5 /* Valid Palindrome.cpp in Sources */,
@@ -700,6 +718,7 @@
 				F271D226222FFBB9005606F5 /* Implement Queue using Stacks.cpp in Sources */,
 				F271D246222FFBB9005606F5 /* CountAndSay.cpp in Sources */,
 				F271D243222FFBB9005606F5 /* Fizz Buzz.cpp in Sources */,
+				F2BB0DB12284412E000BC4DC /* Range Sum of BST.cpp in Sources */,
 				F271D251222FFBB9005606F5 /* Hamming Distance.cpp in Sources */,
 				F271D23B222FFBB9005606F5 /* Linked List Cycle.cpp in Sources */,
 				F271D238222FFBB9005606F5 /* Remove Linked List Elements.cpp in Sources */,
@@ -714,6 +733,7 @@
 				F2DFF45A2236B51800D5A4F0 /* Univalued Binary Tree.cpp in Sources */,
 				F271D23D222FFBB9005606F5 /* Remove Duplicates from Sorted List.cpp in Sources */,
 				F271D210222FFBB8005606F5 /* Valid Anagram.cpp in Sources */,
+				F2A6E15022806B2B000C8071 /* Array Partition I.cpp in Sources */,
 				F271D22F222FFBB9005606F5 /* Add Binary.cpp in Sources */,
 				F271D256222FFBB9005606F5 /* Find All Numbers Disappeared in an Array.cpp in Sources */,
 				F271D250222FFBB9005606F5 /* Reverse Bits.cpp in Sources */,
