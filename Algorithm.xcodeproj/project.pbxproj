@@ -105,6 +105,7 @@
 		F271D25D222FFBB9005606F5 /* Fibonacci Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D202222FFBB8005606F5 /* Fibonacci Number.cpp */; };
 		F271D25E222FFBB9005606F5 /* Product of Array Except Self.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D204222FFBB8005606F5 /* Product of Array Except Self.cpp */; };
 		F271D26022317417005606F5 /* Majority Element II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D25F22317417005606F5 /* Majority Element II.cpp */; };
+		F2829D1822898B8E00926132 /* Remove Outermost Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2829D1722898B8E00926132 /* Remove Outermost Parentheses.cpp */; };
 		F28C4545223D4C8000A07622 /* Find Common Characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F28C4544223D4C8000A07622 /* Find Common Characters.cpp */; };
 		F2A6E14E228067B7000C8071 /* Flipping an Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2A6E14D228067B7000C8071 /* Flipping an Image.cpp */; };
 		F2A6E15022806B2B000C8071 /* Array Partition I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2A6E14F22806B2B000C8071 /* Array Partition I.cpp */; };
@@ -231,6 +232,7 @@
 		F271D202222FFBB8005606F5 /* Fibonacci Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Fibonacci Number.cpp"; sourceTree = "<group>"; };
 		F271D204222FFBB8005606F5 /* Product of Array Except Self.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Product of Array Except Self.cpp"; sourceTree = "<group>"; };
 		F271D25F22317417005606F5 /* Majority Element II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Majority Element II.cpp"; sourceTree = "<group>"; };
+		F2829D1722898B8E00926132 /* Remove Outermost Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove Outermost Parentheses.cpp"; sourceTree = "<group>"; };
 		F28C4544223D4C8000A07622 /* Find Common Characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Find Common Characters.cpp"; sourceTree = "<group>"; };
 		F2A6E14D228067B7000C8071 /* Flipping an Image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Flipping an Image.cpp"; sourceTree = "<group>"; };
 		F2A6E14F22806B2B000C8071 /* Array Partition I.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Partition I.cpp"; sourceTree = "<group>"; };
@@ -414,6 +416,7 @@
 				F271D1BF222FFBB8005606F5 /* Min Stack.cpp */,
 				F271D1C0222FFBB8005606F5 /* Next Greater Element I.cpp */,
 				F271D1C1222FFBB8005606F5 /* Valid Parentheses.cpp */,
+				F2829D1722898B8E00926132 /* Remove Outermost Parentheses.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -704,6 +707,7 @@
 				F271D208222FFBB8005606F5 /* Maximum Subarray.cpp in Sources */,
 				F271D242222FFBB9005606F5 /* Linked List Cycle II.cpp in Sources */,
 				F271D22E222FFBB9005606F5 /* Missing Number.cpp in Sources */,
+				F2829D1822898B8E00926132 /* Remove Outermost Parentheses.cpp in Sources */,
 				F271D21C222FFBB8005606F5 /* Binary Tree Level Order Traversal II.cpp in Sources */,
 				F271D24A222FFBB9005606F5 /* Add Binary.cpp in Sources */,
 				F23D92BE2232A69B00F0B9EC /* Path Sum.cpp in Sources */,
