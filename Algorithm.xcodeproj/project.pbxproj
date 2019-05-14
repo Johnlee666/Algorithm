@@ -117,6 +117,7 @@
 		F2DFF4622238068400D5A4F0 /* Reverse String II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF4612238068400D5A4F0 /* Reverse String II.cpp */; };
 		F2DFF4642238089300D5A4F0 /* Reverse Words in a String III.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF4632238089300D5A4F0 /* Reverse Words in a String III.cpp */; };
 		F2DFF46D22395B5C00D5A4F0 /* Power of Two.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF46C22395B5C00D5A4F0 /* Power of Two.cpp */; };
+		F2E6E15E228ADB3C0090ED65 /* Increasing Order Search Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2E6E15D228ADB3C0090ED65 /* Increasing Order Search Tree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -244,6 +245,7 @@
 		F2DFF4612238068400D5A4F0 /* Reverse String II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse String II.cpp"; sourceTree = "<group>"; };
 		F2DFF4632238089300D5A4F0 /* Reverse Words in a String III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Words in a String III.cpp"; sourceTree = "<group>"; };
 		F2DFF46C22395B5C00D5A4F0 /* Power of Two.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Power of Two.cpp"; sourceTree = "<group>"; };
+		F2E6E15D228ADB3C0090ED65 /* Increasing Order Search Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Increasing Order Search Tree.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,6 +385,7 @@
 				F2BB0DB02284412E000BC4DC /* Range Sum of BST.cpp */,
 				F2BB0DB2228442C4000BC4DC /* Average of Levels in Binary Tree.cpp */,
 				F2BB0DB42284494A000BC4DC /* Trim a Binary Search Tree.cpp */,
+				F2E6E15D228ADB3C0090ED65 /* Increasing Order Search Tree.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -668,6 +671,7 @@
 				F271D23A222FFBB9005606F5 /* Merge Two Sorted Lists.cpp in Sources */,
 				F271D206222FFBB8005606F5 /* Min Cost Climbing Stairs.cpp in Sources */,
 				F271D21B222FFBB8005606F5 /* Convert BST to Greater Tree.cpp in Sources */,
+				F2E6E15E228ADB3C0090ED65 /* Increasing Order Search Tree.cpp in Sources */,
 				F271D22A222FFBB9005606F5 /* Plus One.cpp in Sources */,
 				F271D24E222FFBB9005606F5 /* Integer to Roman.cpp in Sources */,
 				F271D231222FFBB9005606F5 /* Majority Element.cpp in Sources */,
