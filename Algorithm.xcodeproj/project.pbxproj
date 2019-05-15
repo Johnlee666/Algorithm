@@ -107,6 +107,10 @@
 		F271D26022317417005606F5 /* Majority Element II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F271D25F22317417005606F5 /* Majority Element II.cpp */; };
 		F2829D1822898B8E00926132 /* Remove Outermost Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2829D1722898B8E00926132 /* Remove Outermost Parentheses.cpp */; };
 		F28C4545223D4C8000A07622 /* Find Common Characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F28C4544223D4C8000A07622 /* Find Common Characters.cpp */; };
+		F29D7D0D228BF8E2008FB196 /* N-Repeated Element in Size 2N Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29D7D0C228BF8E2008FB196 /* N-Repeated Element in Size 2N Array.cpp */; };
+		F29D7D0F228BFC2E008FB196 /* Uncommon Words from Two Sentences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29D7D0E228BFC2E008FB196 /* Uncommon Words from Two Sentences.cpp */; };
+		F29D7D11228BFF2B008FB196 /* Isomorphic Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29D7D10228BFF2B008FB196 /* Isomorphic Strings.cpp */; };
+		F29D7D13228BFF6D008FB196 /* Word Pattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29D7D12228BFF6D008FB196 /* Word Pattern.cpp */; };
 		F2A6E14E228067B7000C8071 /* Flipping an Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2A6E14D228067B7000C8071 /* Flipping an Image.cpp */; };
 		F2A6E15022806B2B000C8071 /* Array Partition I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2A6E14F22806B2B000C8071 /* Array Partition I.cpp */; };
 		F2BB0DB12284412E000BC4DC /* Range Sum of BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BB0DB02284412E000BC4DC /* Range Sum of BST.cpp */; };
@@ -235,6 +239,10 @@
 		F271D25F22317417005606F5 /* Majority Element II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Majority Element II.cpp"; sourceTree = "<group>"; };
 		F2829D1722898B8E00926132 /* Remove Outermost Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove Outermost Parentheses.cpp"; sourceTree = "<group>"; };
 		F28C4544223D4C8000A07622 /* Find Common Characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Find Common Characters.cpp"; sourceTree = "<group>"; };
+		F29D7D0C228BF8E2008FB196 /* N-Repeated Element in Size 2N Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "N-Repeated Element in Size 2N Array.cpp"; sourceTree = "<group>"; };
+		F29D7D0E228BFC2E008FB196 /* Uncommon Words from Two Sentences.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Uncommon Words from Two Sentences.cpp"; sourceTree = "<group>"; };
+		F29D7D10228BFF2B008FB196 /* Isomorphic Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Isomorphic Strings.cpp"; sourceTree = "<group>"; };
+		F29D7D12228BFF6D008FB196 /* Word Pattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Word Pattern.cpp"; sourceTree = "<group>"; };
 		F2A6E14D228067B7000C8071 /* Flipping an Image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Flipping an Image.cpp"; sourceTree = "<group>"; };
 		F2A6E14F22806B2B000C8071 /* Array Partition I.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Partition I.cpp"; sourceTree = "<group>"; };
 		F2BB0DB02284412E000BC4DC /* Range Sum of BST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Range Sum of BST.cpp"; sourceTree = "<group>"; };
@@ -342,6 +350,10 @@
 				F271D1A2222FFBB8005606F5 /* Valid Anagram.cpp */,
 				F271D1A3222FFBB8005606F5 /* Contains Duplicate.cpp */,
 				F271D1A4222FFBB8005606F5 /* Intersection of Two Arrays.cpp */,
+				F29D7D0C228BF8E2008FB196 /* N-Repeated Element in Size 2N Array.cpp */,
+				F29D7D0E228BFC2E008FB196 /* Uncommon Words from Two Sentences.cpp */,
+				F29D7D10228BFF2B008FB196 /* Isomorphic Strings.cpp */,
+				F29D7D12228BFF6D008FB196 /* Word Pattern.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -691,6 +703,7 @@
 				F271D224222FFBB9005606F5 /* Baseball Game.cpp in Sources */,
 				F271D24C222FFBB9005606F5 /* Longest Common Prefix.cpp in Sources */,
 				F271D218222FFBB8005606F5 /* Symmetric Tree.cpp in Sources */,
+				F29D7D13228BFF6D008FB196 /* Word Pattern.cpp in Sources */,
 				F271D25A222FFBB9005606F5 /* Shortest Unsorted Continuous Subarray.cpp in Sources */,
 				F2BB0DB3228442C4000BC4DC /* Average of Levels in Binary Tree.cpp in Sources */,
 				F271D209222FFBB8005606F5 /* Range Sum Query - Immutable.cpp in Sources */,
@@ -698,6 +711,7 @@
 				F271D20D222FFBB8005606F5 /* Intersection of Two Arrays II.cpp in Sources */,
 				F271D21E222FFBB8005606F5 /* Merge Two Binary Trees.cpp in Sources */,
 				F271D23E222FFBB9005606F5 /* Palindrome Linked List.cpp in Sources */,
+				F29D7D11228BFF2B008FB196 /* Isomorphic Strings.cpp in Sources */,
 				F271D245222FFBB9005606F5 /* Repeated Substring Pattern.cpp in Sources */,
 				F271D257222FFBB9005606F5 /* Merge Sorted Array.cpp in Sources */,
 				F271D244222FFBB9005606F5 /* Roman to Integer.cpp in Sources */,
@@ -705,6 +719,7 @@
 				F271D255222FFBB9005606F5 /* Counting Bits.cpp in Sources */,
 				F271D20B222FFBB8005606F5 /* Find the Difference.cpp in Sources */,
 				F23D92CA223418E700F0B9EC /* Sort Array By Parity.cpp in Sources */,
+				F29D7D0F228BFC2E008FB196 /* Uncommon Words from Two Sentences.cpp in Sources */,
 				F271D22D222FFBB9005606F5 /* Two Sum.cpp in Sources */,
 				F271D259222FFBB9005606F5 /* Rotate Array.cpp in Sources */,
 				F271D212222FFBB8005606F5 /* Intersection of Two Arrays.cpp in Sources */,
@@ -754,6 +769,7 @@
 				F271D241222FFBB9005606F5 /* Add Two Numbers.cpp in Sources */,
 				F271D25C222FFBB9005606F5 /* Move Zeroes.cpp in Sources */,
 				F271D211222FFBB8005606F5 /* Contains Duplicate.cpp in Sources */,
+				F29D7D0D228BF8E2008FB196 /* N-Repeated Element in Size 2N Array.cpp in Sources */,
 				F271D233222FFBB9005606F5 /* Power of Three.cpp in Sources */,
 				F271D25D222FFBB9005606F5 /* Fibonacci Number.cpp in Sources */,
 				F271D253222FFBB9005606F5 /* Single Number.cpp in Sources */,
