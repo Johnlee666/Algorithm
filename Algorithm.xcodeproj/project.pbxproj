@@ -111,6 +111,9 @@
 		F29D7D0F228BFC2E008FB196 /* Uncommon Words from Two Sentences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29D7D0E228BFC2E008FB196 /* Uncommon Words from Two Sentences.cpp */; };
 		F29D7D11228BFF2B008FB196 /* Isomorphic Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29D7D10228BFF2B008FB196 /* Isomorphic Strings.cpp */; };
 		F29D7D13228BFF6D008FB196 /* Word Pattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29D7D12228BFF6D008FB196 /* Word Pattern.cpp */; };
+		F29D7D33228D9E01008FB196 /* Self Dividing Numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29D7D32228D9E01008FB196 /* Self Dividing Numbers.cpp */; };
+		F29D7D35228D9F20008FB196 /* Perfect Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29D7D34228D9F20008FB196 /* Perfect Number.cpp */; };
+		F29D7D37228DA2F3008FB196 /* Smallest Range I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29D7D36228DA2F3008FB196 /* Smallest Range I.cpp */; };
 		F2A6E14E228067B7000C8071 /* Flipping an Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2A6E14D228067B7000C8071 /* Flipping an Image.cpp */; };
 		F2A6E15022806B2B000C8071 /* Array Partition I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2A6E14F22806B2B000C8071 /* Array Partition I.cpp */; };
 		F2BB0DB12284412E000BC4DC /* Range Sum of BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2BB0DB02284412E000BC4DC /* Range Sum of BST.cpp */; };
@@ -243,6 +246,9 @@
 		F29D7D0E228BFC2E008FB196 /* Uncommon Words from Two Sentences.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Uncommon Words from Two Sentences.cpp"; sourceTree = "<group>"; };
 		F29D7D10228BFF2B008FB196 /* Isomorphic Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Isomorphic Strings.cpp"; sourceTree = "<group>"; };
 		F29D7D12228BFF6D008FB196 /* Word Pattern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Word Pattern.cpp"; sourceTree = "<group>"; };
+		F29D7D32228D9E01008FB196 /* Self Dividing Numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Self Dividing Numbers.cpp"; sourceTree = "<group>"; };
+		F29D7D34228D9F20008FB196 /* Perfect Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Perfect Number.cpp"; sourceTree = "<group>"; };
+		F29D7D36228DA2F3008FB196 /* Smallest Range I.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Smallest Range I.cpp"; sourceTree = "<group>"; };
 		F2A6E14D228067B7000C8071 /* Flipping an Image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Flipping an Image.cpp"; sourceTree = "<group>"; };
 		F2A6E14F22806B2B000C8071 /* Array Partition I.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Array Partition I.cpp"; sourceTree = "<group>"; };
 		F2BB0DB02284412E000BC4DC /* Range Sum of BST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Range Sum of BST.cpp"; sourceTree = "<group>"; };
@@ -461,6 +467,9 @@
 				F271D1CF222FFBB8005606F5 /* Ugly Number.cpp */,
 				F271D1D0222FFBB8005606F5 /* Factorial Trailing Zeroes.cpp */,
 				F2DFF46C22395B5C00D5A4F0 /* Power of Two.cpp */,
+				F29D7D32228D9E01008FB196 /* Self Dividing Numbers.cpp */,
+				F29D7D34228D9F20008FB196 /* Perfect Number.cpp */,
+				F29D7D36228DA2F3008FB196 /* Smallest Range I.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -718,6 +727,7 @@
 				F271D225222FFBB9005606F5 /* Implement Stack using Queues.cpp in Sources */,
 				F271D255222FFBB9005606F5 /* Counting Bits.cpp in Sources */,
 				F271D20B222FFBB8005606F5 /* Find the Difference.cpp in Sources */,
+				F29D7D37228DA2F3008FB196 /* Smallest Range I.cpp in Sources */,
 				F23D92CA223418E700F0B9EC /* Sort Array By Parity.cpp in Sources */,
 				F29D7D0F228BFC2E008FB196 /* Uncommon Words from Two Sentences.cpp in Sources */,
 				F271D22D222FFBB9005606F5 /* Two Sum.cpp in Sources */,
@@ -732,6 +742,7 @@
 				F23D92BE2232A69B00F0B9EC /* Path Sum.cpp in Sources */,
 				F271D24D222FFBB9005606F5 /* Multiply Strings.cpp in Sources */,
 				F23D92C8223417B100F0B9EC /* Sort Array By Parity II.cpp in Sources */,
+				F29D7D35228D9F20008FB196 /* Perfect Number.cpp in Sources */,
 				F2A6E14E228067B7000C8071 /* Flipping an Image.cpp in Sources */,
 				F271D228222FFBB9005606F5 /* Next Greater Element I.cpp in Sources */,
 				F271D20F222FFBB8005606F5 /* First Unique Character in a String.cpp in Sources */,
@@ -776,6 +787,7 @@
 				F271D258222FFBB9005606F5 /* Pascal's Triangle.cpp in Sources */,
 				F271D214222FFBB8005606F5 /* Subtree of Another Tree.cpp in Sources */,
 				F271D254222FFBB9005606F5 /* Sum of Two Integers.cpp in Sources */,
+				F29D7D33228D9E01008FB196 /* Self Dividing Numbers.cpp in Sources */,
 				F271D22C222FFBB9005606F5 /* Count Primes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
