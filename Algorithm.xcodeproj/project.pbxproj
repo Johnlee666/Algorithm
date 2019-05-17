@@ -124,6 +124,7 @@
 		F2DFF4622238068400D5A4F0 /* Reverse String II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF4612238068400D5A4F0 /* Reverse String II.cpp */; };
 		F2DFF4642238089300D5A4F0 /* Reverse Words in a String III.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF4632238089300D5A4F0 /* Reverse Words in a String III.cpp */; };
 		F2DFF46D22395B5C00D5A4F0 /* Power of Two.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2DFF46C22395B5C00D5A4F0 /* Power of Two.cpp */; };
+		F2E3F711228EF729001F4950 /* Number of Recent Calls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2E3F710228EF729001F4950 /* Number of Recent Calls.cpp */; };
 		F2E6E15E228ADB3C0090ED65 /* Increasing Order Search Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2E6E15D228ADB3C0090ED65 /* Increasing Order Search Tree.cpp */; };
 /* End PBXBuildFile section */
 
@@ -259,6 +260,7 @@
 		F2DFF4612238068400D5A4F0 /* Reverse String II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse String II.cpp"; sourceTree = "<group>"; };
 		F2DFF4632238089300D5A4F0 /* Reverse Words in a String III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Words in a String III.cpp"; sourceTree = "<group>"; };
 		F2DFF46C22395B5C00D5A4F0 /* Power of Two.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Power of Two.cpp"; sourceTree = "<group>"; };
+		F2E3F710228EF729001F4950 /* Number of Recent Calls.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Number of Recent Calls.cpp"; sourceTree = "<group>"; };
 		F2E6E15D228ADB3C0090ED65 /* Increasing Order Search Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Increasing Order Search Tree.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -300,6 +302,7 @@
 		F25A37E0221561E000E24058 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				F2E3F70E228EF720001F4950 /* Queue */,
 				F271D1F9222FFBB8005606F5 /* Array */,
 				F271D1F0222FFBB8005606F5 /* Bit Manipulation */,
 				F271D193222FFBB8005606F5 /* Dynamic Programming */,
@@ -615,6 +618,22 @@
 			path = Medium;
 			sourceTree = "<group>";
 		};
+		F2E3F70E228EF720001F4950 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				F2E3F70F228EF720001F4950 /* Easy */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		F2E3F70F228EF720001F4950 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				F2E3F710228EF729001F4950 /* Number of Recent Calls.cpp */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -785,6 +804,7 @@
 				F271D25D222FFBB9005606F5 /* Fibonacci Number.cpp in Sources */,
 				F271D253222FFBB9005606F5 /* Single Number.cpp in Sources */,
 				F271D258222FFBB9005606F5 /* Pascal's Triangle.cpp in Sources */,
+				F2E3F711228EF729001F4950 /* Number of Recent Calls.cpp in Sources */,
 				F271D214222FFBB8005606F5 /* Subtree of Another Tree.cpp in Sources */,
 				F271D254222FFBB9005606F5 /* Sum of Two Integers.cpp in Sources */,
 				F29D7D33228D9E01008FB196 /* Self Dividing Numbers.cpp in Sources */,
